@@ -1,0 +1,26 @@
+{
+    "Carlos Calderon": {
+        "Nombre": "Carlos Calderon",
+        "Edad": "21",
+        "Peso": "90",
+        "Talla": "178",
+        "Genero": "masculino",
+        "Enfermedades": "diabetes"
+    },
+    "Marcelo Bilbao": {
+        "Nombre": "Marcelo Bilbao",
+        "Edad": "20",
+        "Peso": "70",
+        "Talla": "175",
+        "Genero": "masculino",
+        "Enfermedades": "anemia"
+    },
+    "Jonatan": {
+        "Nombre": "Jonatan",
+        "Edad": "30",
+        "Peso": "115",
+        "Talla": "175",
+        "Genero": "masculino",
+        "Enfermedades": "no"
+    }
+}
