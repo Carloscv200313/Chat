@@ -1,15 +1,11 @@
 import json
 import registro
 import main
-import traducir
-print("*******************************************************")
+
 print("HOLA, YO SOY BAYMAX, TU ASISTENTE MEDICO PERSONAL!!")
-print("*******************************************************")
 rspt=input("¿YA ESTA REGISTRADO?\n")
-print("*******************************************************")
 if(rspt=="no"):
     print("PORFAVOR PERMITEME TOMAR SUS DATOS")
-    print("*******************************************************")
     datos=registro.registrar()
     x = {
         "Nombre" : datos[0],
@@ -30,19 +26,16 @@ if(rspt=="no"):
 with open("usuario.json", "r") as f:
     datos_usuarios = json.load(f)
     #print (datos_usuarios)
-nom = input("¿CUÁL ES SU USUARIO (nombre)?\n")
+    nom =input("¿CUÁL ES SU USUARIO (nombre)?\n")
+    
 
 if nom in datos_usuarios:
     usuario = datos_usuarios[nom]['Nombre']
-    print("*******************************************************")
-    print("*******************************************************")
-    print("*******************************************************")
     print("HOLA  " + usuario + " , YO SOY BAYMAX, TU ASISTENTE MEDICO PERSONAL!!")
+    #print("HABLA CONMIGO !!")
     bool=True
     while bool==True:
         texto=input()
-        texto=traducir.correction(texto)
         bool=main.response(texto)
-    print("FUE UN GUSTO AYUDARTE "+ usuario+ " !!")
 else:
     print("Usuario no encontrado.")

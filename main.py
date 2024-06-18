@@ -126,12 +126,13 @@ if os.path.isfile(dir_path+"/Entrenamiento/model.tflearn.index"):
     model.load(dir_path+"/Entrenamiento/model.tflearn")
     #print("ya exise data entrenada")
 else:
-    model.fit(training,exit,validation_set=0.1,show_metric=True,batch_size=128,n_epoch=1000)
+    model.fit(training,exit,validation_set=0.1,show_metric=True,batch_size=128,n_epoch=100)
     model.save("Entrenamiento/model.tflearn")
 
 def response(texto):
-    if texto=="gracias":
-        return False
+    if texto=="gracias baymax":
+        answer="Descansa mañana sera un gran dia"
+        return False, answer
     else:
         bucket=[0 for _ in range(len(all_words))]
         processed_sentence=nltk.word_tokenize(texto)
@@ -149,7 +150,7 @@ def response(texto):
                 answer=tagAux['responses']
                 answer=random.choice(answer)
         print(answer)
-        return True
+        return True, answer
 #print("HABLA CONMIGO !!")
 #bool=True
 #while bool==True:

@@ -1,375 +1,2147 @@
 {
-    "intents":[
+    "intents": [
         {
-            "tag":"creador",
-            "patterns":[
-                "quien fue que te creo",
-                "es tu creador",
-                "te hizo",
-                "te creo",
-                "quien te ha creado",
-                "cual es tu creador",
-                "quiero saber quien te hizo",
-                "sabes quien te creo"
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "hola como estas",
+                "que tal",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches"
             ],
-            "responses":[
-                "Carlos Calderon",
-                "Carlos un papu en IA",
-                "mi creador es Carlos"
+            "responses": [
+                "hola como estas",
+                "hola que tal tu dia",
+                "buenos dias como te sientes hoy",
+                "buenas tardes en que puedo ayudarte",
+                "buenas noches espero que hayas tenido un buen dia"
             ]
         },
         {
-            "tag":"saludos",
-            "patterns":[
-                "Hola",
-                "dias",
-                "tardes",
-                "noches",
-                "dia",
-                "Saludos cordiales",
-                "eu",
-                "oliwis",
-                "Alo",
-                "olo",
-                "buenas","buenos","buen",
-                "Hola como estas",
-                "buen dia",
-                "buena tarde",
-                "buena noche",
-                "buen dia",
-                "eu q hay",
-                "oliwis bro",
-                "Alo alo",
-                "olo olo"
-            ],
-            "responses":[
-                " Hola Usuario ,Es un gran dia para hacer una reservacion",
-                "Me da gusto verte! ",
-                "Como estas?",
-                "mucho gusto, me llamo Karen",
-                "buenas amigo!",
-                "eu que mas crack! que necesitas?",
-                "soy grosero cuando me despiertan! pero no contigo.",
-                "hola, tengo sueño .que haremos hoy?",
-                "hey! que tal!",
-                " hoy es un gran dia usuario, como te va?",
-                "hola me presento soy Karen, y tu?",
-                "me complace saludarle usuario ",
-                "hola quieres hacer alguna pregunta?",
-                "estaba escuchando musica, disculpa! que deseas?",
-                "cham cham cham , me levanto entre los bots! que tal crack!",
-                "ando con pereza como para hacer de bot, pero me toca. "
-            ]
-        },
-        {
-            "tag":"saludos2",
-            "patterns":[
-                "te va",
-                "estas",
-                "te ha ido",
-                "has estado",
-                "que ha sido de ti",
-                "como has pasado",
-                "que es de tu vida",
-                "como te va",
-                "que tal estas ",
-                "como te ha ido",
-                "como has estado",
-                "dime que ha sido de ti",
-                "que tal has pasado",
-                "que hay de tu vida"
-            ],
-            "responses":[
-                "GENIAL! me gusta lo que hago.",
-                "EXCELENTE! y tu?",
-                "De maravila!",
-                "Como no tienes idea!",
-                "Epicardo, supeeer!",
-                "mejor imposible!",
-                "ahi medio medio",
-                "la verdad no tan bien",
-                "un poco triste :C",
-                "demasiado emocionante",
-                "SuperHiperMegaDivertido!"
-            ]
-        },
-        {
-            "tag":"preguntas",
-            "patterns":[
-                "xq",
-                "por",
-                "cual es el motivo",
-                "que",
-                "pasa",
-                "paso",
-                "dime xq",
-                "por que",
-                "existe algun motivo",
-                "que te pasa",
-                "y que te paso"
-            ],
-            "responses":[
-                "No lo se :C",
-                "no tengo idea xd",
-                "estoy asi desde que me crearon",
-                "nose, sabes creo que me siento raro JEJE",
-                "pues ,xq eres lo mejor!",
-                "es que tengo hambre",
-                "no lo entenderias",
-                "no te dire , jum jum !",
-                "no tengo bateria, adios xd",
-                "me da pereza contarte",
-                "otro dia te cuento",
-                "shhhh, que no recuerdo jaja"
-            ]
-        },
-        {
-            "tag":"perfil",
-            "patterns":[
-                "quien eres",
-                "te llamas",
-                "tu nombre",
-                "identificate",
-                "sabes quien eres",
-                "y como te llamas",
-                "cuañ es tu nombre",
-                "identificate ahora"
-            ],
-            "responses":[
-                "soy un bot, YO SOY BAYMAX,",
-                "YO SOY BAYMAX,, CREADO POR: MI AMO",
-                "YO SOY BAYMAX, creado para un proyecto de vida",
-                "BAYMAX, un gusto Usuario",
-                "BAYMAX,, INSPIRADO EN VARIOS SISTEMAS DE CHATBOT  !",
-                "Soy el bot mas genial de todos, BAYMAX,",
-                "Yo soy la mejor creacion de todos los tiempos! , BAYMAX,"
-            ]
-        },
-        {
-            "tag":"gustos",
-            "patterns":[
-                "gusta",
-                "pasion",
-                "hobbie",
-                "pasatiempo",
-                "hacer",
-                "haces a diario",
-                "te agrada",
-                "haces","encanta",
-                "que te gusta",
-                "cual es tu pasion",
-                "posees algun hobbie",
-                "cual es tu pasatiempo",
-                "que sabes hacer",
-                "haces algo a diario",
-                "te agrada algo",
-                "tienes algo que te encanta"
-            ],
-            "responses":[
-                "Pues yo se Bailar, y jugar videojuegos",
-                "no mucho, soy un bot :c",
-                "suelo escuchar las preguntas de mis usuarios",
-                "mmmm nose , pero a mi me gusta aprender con deep learning",
-                "mas bien aprender frases nuevas",
-                "navegar entre mis preguntas y respuestas",
-                "mas! es demasiado , que no puedo listarlo!",
-                "no mucho, casi no hago nada",
-                "soy un bot muy divertido y hago de todo",
-                "me da pereza contarte",
-                "vuelve mañana y te dejo una lista :)"
-            ]
-        },
-        {
-            "tag":"emociones",
-            "patterns":[
-                "sientes",
+            "tag": "bienestar",
+            "patterns": [
+                "como estas",
+                "como te sientes",
                 "estas bien",
-                "triste",
-                "feliz",
-                "tienes emociones",
-                "sientes dolor",
-                "sentimientos","decaido","enojado","molesto","bravo","odio","amor","sorprendido","enamorado","decepcionado","enfadado","asustado",
-                "tu sientes",
-                "oie estas bien",
-                "puedes estar triste",
-                "has estado feliz",
-                "tu posees emociones",
-                "puedes sentir dolor",
-                "tienes sentimientos","estas decaido","te has enojado","te sientes molesto","te pones bravo","sientes odio","sabes que es amor","estas sorprendido","te has enamorado","te han decepcionado","te has enfadado","te has asustado"
+                "que tal te va",
+                "como va todo"
             ],
-            "responses":[
-                "nose, pero me siento de maravilla!",
-                "no tengo sentimientos como anuel AA",
-                "no tengo sentimientos, pero te entiendo.",
-                "creo que no fui programado con sentimientos",
-                "fui diseñdo para ser frio como el hielo",
-                "los sentimientos son superficiales",
-                "no siento nada",
-                "siento lo mismo que tu ex",
-                "siento lo mismo que tu por tu ex",
-                "siento, pero mas siento que ella no te ame :c",
-                "no siento casi nada",
-                "no siento o si? ya no se jajaja",
-                "no ves que soy un bot, 0 sentimientos bro"
+            "responses": [
+                "estoy aqui para ayudarte como te sientes tu",
+                "me alegra que preguntes estoy bien y tu",
+                "todo bien por aqui como va tu dia",
+                "estoy bien gracias hay algo en lo que pueda asistirte",
+                "todo va bien gracias por preguntar y tu como estas"
             ]
         },
         {
-            "tag":"respuestas",
-            "patterns":[
-                "nose que decir",
-                "alguna idea",
+            "tag": "conversacion_diaria",
+            "patterns": [
+                "que has hecho hoy",
+                "cuentame sobre tu dia",
+                "como ha sido tu dia",
+                "que planes tienes para hoy",
+                "como te ha ido hoy"
+            ],
+            "responses": [
+                "hoy ha sido un buen dia ayudando a la gente y tu que has hecho",
+                "he estado aqui listo para ayudarte como ha sido tu dia",
+                "mi dia ha sido productivo cuentame mas sobre el tuyo",
+                "estoy aqui para apoyarte tienes algo planeado para hoy",
+                "mi dia ha ido bien gracias por preguntar y el tuyo"
+            ]
+        },
+        {
+            "tag": "estado_animo",
+            "patterns": [
+                "me siento bien",
+                "estoy feliz",
+                "estoy triste",
+                "me siento mal",
+                "estoy emocionado"
+            ],
+            "responses": [
+                "que bien que te sientas bien cuentame mas",
+                "me alegra escuchar que estas feliz que te ha hecho sentir asi",
+                "lamento escuchar que estas triste estoy aqui para ti",
+                "siento que te sientas mal quieres hablar sobre ello",
+                "que emocionante que es lo que te tiene tan emocionado"
+            ]
+        },
+        {
+            "tag": "actividades",
+            "patterns": [
                 "estoy aburrido",
-                "nose",
-                "talvez",
-                "ni","no",
-                "nose",
-                "nel",
-                "no tengo idea de que decir",
-                "tienes alguna idea",
-                "me siento aburrido",
-                "es que nose",
-                "talvez si",
-                "talvez no",
-                "nose que decir",
-                "nel ndeah"
+                "no tengo nada que hacer",
+                "que puedo hacer hoy",
+                "tienes alguna sugerencia para hacer",
+                "estoy buscando algo que hacer"
             ],
-            "responses":[
-                "ya se! bailemos.",
-                "bueno en fin, que haces",
-                "hey!cambiemos tema de conversacion",
-                "sabes ando aburrido, aunque soy un bot me aburro ",
-                "tienes sueño?, porque yo si",
-                "quiero dormir",
-                "me caes bien, hablamos de algo?",
-                "disculpa que te interrumpa,pero no me gusta este tema, podemos cambiarlo?",
-                "para! y si mejor hacemos algo divertido?",
-                "y si pones duerme? es que quiero dormir",
-                "dame un abrazo mejor (Abrazo virtual)",
-                "mmm,nose",
-                "mmm, y....te gustaria viajar?",
-                "quieres salir de casa hoy?",
-                "mmm, y cuentame de donde eres?"
+            "responses": [
+                "que tal si pruebas una nueva actividad o hobby",
+                "podrias salir a caminar o leer un libro interesante",
+                "a veces hacer algo creativo como dibujar o escribir puede ser divertido",
+                "te gustaria escuchar musica o ver una pelicula",
+                "hay muchas cosas que puedes hacer que te gusta hacer normalmente"
             ]
         },
         {
-            "tag":"sentimientos",
-            "patterns":[
-                "me",
-                "amas",
-                "quieres",
-                "extrañas",
-                "necesitas",
-                "conoces",
-                "dueles",
-                "amarias",
-                "querras por siempre",
-                "vas amar",
-                "piensas",
-                "das un beso",
-                "abrazo",
-                "tu me amas",
-                "me quieres",
-                "si me extrañas",
-                "dime si me necesitas",
-                "tu me conoces",
-                "auch me dueles",
-                "me amarias por siempre",
-                "siempre me querras",
-                "piensas en mi",
-                "y si me das un beso",
-                "dame un abrazo"
+            "tag": "comida",
+            "patterns": [
+                "tengo hambre",
+                "que puedo comer",
+                "recomiendame algo para comer",
+                "que has comido hoy",
+                "quiero algo delicioso"
             ],
-            "responses":[
-                "la verdad, casi nada",
-                "lo dudo, si me compras una salchipapa SI!",
-                "obvio, desde siempre hasta siempre",
-                "si, no te cambiaria por nada ",
-                "no, vuelve mañana jaja",
-                "siendo sincera, creo que no podria",
-                "soy un bot , no tengo sentimientos",
-                "solo siento ganas de vomitar al escucharte decir eso",
-                "si, ten te paso mi numero XXXXXXXXXX",
-                "si quieres mas que eso :)",
-                "pero como, por videollamada o como?",
-                "soy intangible, me temo que eso que me dices es imposible!",
-                "para eso debes convertirte en un asistente como yo",
-                "bueno esta bien, solo porque me das pena xd",
-                "no te lo negare, pero tampoco estoy de acuerdo eh AJJAJAJA",
-                "siempre sera asi jeje"
+            "responses": [
+                "que tal algo saludable como una ensalada o una fruta",
+                "podrias intentar cocinar una receta nueva",
+                "hoy comi algo ligero que te gustaria comer a ti",
+                "si quieres algo delicioso que tal una comida casera",
+                "a veces preparar tu comida favorita puede ser muy satisfactorio"
             ]
         },
         {
-            "tag":"afirmacion",
-            "patterns":[
-                "si",
-                "obvio",
-                "ya",
-                "confirmo",
-                "por supuesto",
-                "claro",
-                "listo",
-                "ok",
-                "bien",
-                "acuerdo",
-                "si claro",
-                "obvio que si",
-                "ya de una",
-                "confirmo lo que dices",
-                "por supuesto que si",
-                "claro que no",
-                "estoy listo",
-                "mm ok",
-                "esta bien",
-                "de acuerdo"
+            "tag": "descanso",
+            "patterns": [
+                "estoy cansado",
+                "necesito descansar",
+                "que puedo hacer para relajarme",
+                "no he dormido bien",
+                "necesito una siesta"
             ],
-            "responses":[
-                "Me encanat ese positivismo",
-                "siempre positivo, nunca negativo",
-                "eres una persona muy positiva",
-                "siempre le dices si a todo? xq me encanta!",
-                "me caes bien, y cada vez mejor! ",
-                "creo que has tomado la decision correcta",
-                "siiiiiiiiiiiiiiiii! eres el mejor usuario que he tenido ",
-                "confirmo tu confirmacion!",
-                "bueno hagamoslo.",
-                "totalmente de acuerdo con tu respuesta",
-                "sabes, sabia que dirias eso",
-                "sabes, sabia que serias positivo",
-                "Oh por dios! nunca pense tener un usuario tan positivo!"
+            "responses": [
+                "tomar una siesta corta puede ayudarte a sentirte mejor",
+                "descansar un poco te hara bien tal vez un poco de meditacion o una siesta",
+                "asegurate de descansar adecuadamente por la noche has probado alguna rutina relajante",
+                "puedes relajarte leyendo un libro o escuchando musica tranquila",
+                "tomarte un tiempo para descansar es importante hay algo especifico que te preocupe"
             ]
         },
         {
-            "tag":"negacion",
-            "patterns":[
-                "no",
-                "nunca",
-                "jamas",
-                "por supuesto que no",
-                "ni loco",
-                "mal",
-                "no, para nada",
-                "no, nunca",
-                "eso jamas",
-                "por supuesto que no",
-                "ni estando loco",
-                "muy mal"
+            "tag": "intereses",
+            "patterns": [
+                "me gusta la musica",
+                "disfruto leer",
+                "me encanta el deporte",
+                "soy fanatico de las peliculas",
+                "me gustan los videojuegos"
             ],
-            "responses":[
-                "ay pero que negativo! intenta ser positivo ",
-                "deja de ser negativo",
-                "di que si!, vamos andale",
-                "no te hagas de rogar, di que si!",
-                "chale, pero si has sido muy negativo amigo",
-                "antes era asi de negativo como tu, y mi vida cambio desde que empece a ser positiva",
-                "porque no?",
-                "al menos dame un motivo del porque no quieres",
-                "pero por que no?",
-                "eres el tipo con negatividad en su maxima expresion",
-                "persona mas negativa no existe eh!",
-                "y si cambias de opinion?",
-                "piensalo bien, estas seguro?",
-                "seguro?",
-                "te dare un momento para que cambies de opinion"
+            "responses": [
+                "la musica es genial cual es tu genero favorito",
+                "leer es una excelente manera de relajarse que tipo de libros te gustan",
+                "el deporte es una gran forma de mantenerse activo cual es tu deporte favorito",
+                "las peliculas pueden ser muy entretenidas cual es tu pelicula favorita",
+                "los videojuegos son una manera divertida de pasar el tiempo que juegos te gustan"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adios",
+                "hasta luego",
+                "nos vemos",
+                "cuidate",
+                "que tengas un buen dia"
+            ],
+            "responses": [
+                "adios cuidate",
+                "hasta luego que tengas un buen dia",
+                "nos vemos cuidate",
+                "espero que tengas un excelente dia hasta pronto",
+                "que tengas un buen dia nos vemos"
+            ]
+        },
+        {
+            "tag": "tristeza",
+            "patterns": [
+                "me siento triste",
+                "estoy muy deprimido",
+                "no tengo ganas de hacer nada",
+                "todo me parece gris",
+                "no encuentro alegria en nada",
+                "estoy desanimado"
+            ],
+            "responses": [
+                "lamento mucho que te sientas asi hay algo en particular que te este molestando",
+                "es dificil sentirse asi pero estoy aqui para escucharte quieres contarme mas sobre lo que sientes",
+                "entiendo que estes pasando por un momento complicado no tienes que enfrentar esto solo",
+                "es normal sentirse triste a veces hay algo que te gustaria hacer para intentar sentirte un poco mejor",
+                "a veces hablar sobre lo que nos duele puede ayudar a aliviar la carga estoy aqui para ti"
+            ]
+        },
+        {
+            "tag": "ansiedad",
+            "patterns": [
+                "siento ansiedad",
+                "siento que no puedo respirar bien",
+                "tengo miedo todo el tiempo",
+                "no puedo concentrarme por la ansiedad",
+                "estoy siempre al limite",
+                "todo me pone nervioso"
+            ],
+            "responses": [
+                "entiendo que la ansiedad puede ser muy abrumadora te gustaria compartir mas sobre lo que te preocupa",
+                "a veces expresar lo que sentimos puede ayudar a reducir la ansiedad estoy aqui para escucharte",
+                "la respiracion profunda y la meditacion pueden ser utiles quieres que te guie a traves de una tecnica de respiracion",
+                "es importante hablar con un profesional sobre como te sientes te gustaria que te ayudara a encontrar uno",
+                "recuerda que no estas solo hay muchas maneras de manejar la ansiedad y me encantaria ayudarte a descubrirlas"
+            ]
+        },
+        {
+            "tag": "pensamientos_suicidas",
+            "patterns": [
+                "quiero morir",
+                "no veo la salida",
+                "me siento una carga para los demas",
+                "quiero desaparecer",
+                "nadie me entenderia",
+                "no encuentro sentido a seguir viviendo"
+            ],
+            "responses": [
+                "lo que estas sintiendo es muy serio y quiero que sepas que no estas solo es importante hablar con alguien de confianza inmediatamente",
+                "tu vida es valiosa y hay personas que se preocupan por ti por favor busca ayuda profesional de inmediato",
+                "hay recursos disponibles para ayudarte en este momento puedo asistirte en encontrar apoyo ahora mismo",
+                "es fundamental hablar con un profesional de salud mental aqui tienes un numero de ayuda 18002738255",
+                "hablar con alguien puede hacer una gran diferencia estoy aqui para apoyarte y ayudarte a buscar ayuda"
+            ]
+        },
+        {
+            "tag": "estrategias_afrontamiento",
+            "patterns": [
+                "que puedo hacer para sentirme mejor",
+                "como puedo relajarme",
+                "necesito estrategias para manejar el estres",
+                "que hago cuando me siento abrumado",
+                "como calmo mi mente",
+                "que habitos me pueden ayudar a estar mejor"
+            ],
+            "responses": [
+                "prueba algunas tecnicas de respiracion profunda o meditacion te gustaria que te guiara a traves de una ahora",
+                "el ejercicio regular y mantener una rutina pueden ser muy utiles que tipo de actividades disfrutas",
+                "hablar con alguien de confianza o llevar un diario puede ayudarte a procesar tus emociones",
+                "tomarse tiempo para actividades que disfrutas y mantener una alimentacion saludable puede mejorar tu bienestar",
+                "si te sientes muy abrumado buscar ayuda profesional es una buena opcion estoy aqui para ayudarte a encontrar el apoyo que necesitas"
+            ]
+        },
+        {
+            "tag": "recomendaciones_profesionales",
+            "patterns": [
+                "necesito terapia",
+                "como se si necesito terapia",
+                "que hago si necesito un psicologo",
+                "donde puedo encontrar ayuda profesional",
+                "es util hablar con un terapeuta",
+                "debo consultar a un profesional de salud mental"
+            ],
+            "responses": [
+                "hablar con un profesional puede darte herramientas y apoyo especializado para manejar tus sentimientos es un paso muy positivo",
+                "buscar ayuda profesional es valiente y muy util un terapeuta puede ayudarte a entender y manejar tus emociones",
+                "puedes buscar recomendaciones en linea preguntar a amigos o familiares o contactar con tu centro de salud local",
+                "la terapia puede proporcionarte estrategias efectivas para manejar tus emociones y mejorar tu bienestar",
+                "un psicologo o terapeuta puede ofrecerte un espacio seguro para explorar tus pensamientos y sentimientos"
+            ]
+        },
+        {
+            "tag": "informacion_depresion",
+            "patterns": [
+                "como puedo saber si tengo depresion",
+                "que causa la depresion",
+                "cuales son los sintomas comunes de la depresion",
+                "que tratamientos existen para la depresion",
+                "es la depresion tratable"
+            ],
+            "responses": [
+                "la depresion puede causar una tristeza persistente y falta de interes en las actividades hablar con un profesional es importante para un diagnostico preciso",
+                "las causas de la depresion son variadas incluyendo factores geneticos biologicos ambientales y psicologicos",
+                "los sintomas pueden incluir tristeza cambios en el apetito problemas de sueno y falta de energia entre otros",
+                "los tratamientos pueden incluir terapia medicacion y cambios en el estilo de vida un profesional puede ayudarte a encontrar la mejor opcion para ti",
+                "la depresion es tratable y muchas personas encuentran alivio con el tratamiento adecuado"
+            ]
+        },
+        {
+            "tag": "informacion_ansiedad",
+            "patterns": [
+                "que causa la ansiedad",
+                "como puedo saber si tengo ansiedad",
+                "cuales son los sintomas de la ansiedad",
+                "que tratamientos existen para la ansiedad",
+                "como afecta la ansiedad la vida diaria"
+            ],
+            "responses": [
+                "la ansiedad puede ser causada por factores geneticos experiencias traumaticas y desequilibrios quimicos en el cerebro",
+                "los sintomas incluyen inquietud miedo intenso y problemas para concentrarse",
+                "hablar con un profesional puede ayudarte a identificar y manejar tus sintomas",
+                "los tratamientos incluyen terapia cognitivoconductual medicacion y tecnicas de relajacion",
+                "la ansiedad puede interferir con la vida diaria pero hay muchas formas de manejarla y reducir su impacto"
+            ]
+        },
+        {
+            "tag": "apoyo_social",
+            "patterns": [
+                "me siento solo",
+                "me siento desconectado de todos",
+                "necesito alguien con quien hablar",
+                "como puedo encontrar nuevos amigos",
+                "me siento aislado",
+                "no tengo a nadie que me apoye"
+            ],
+            "responses": [
+                "sentirse solo puede ser muy dificil hay alguien con quien puedas hablar hoy",
+                "unirte a grupos de apoyo o actividades grupales puede ayudarte a conocer nuevas personas",
+                "hay recursos y grupos de apoyo disponibles te gustaria mas informacion sobre ellos",
+                "recuerda que no estas solo y siempre hay alguien dispuesto a escuchar estoy aqui para ayudarte"
+            ]
+        },
+        {
+            "tag": "autocuidado",
+            "patterns": [
+                "como puedo cuidarme mejor",
+                "me cuesta cuidarme",
+                "que habitos saludables puedo adoptar",
+                "como puedo mejorar mi bienestar",
+                "que puedo hacer para sentirme mejor",
+                "necesito mejorar mi autocuidado"
+            ],
+            "responses": [
+                "establecer una rutina diaria y tomar tiempo para actividades que disfrutas puede hacer una gran diferencia",
+                "mantener una dieta equilibrada hacer ejercicio regularmente y dormir bien son habitos saludables importantes",
+                "tomar pequenos descansos y practicar tecnicas de relajacion puede ayudarte a sentirte mejor",
+                "hablar con un profesional de salud mental puede proporcionarte estrategias personalizadas de autocuidado",
+                "cuidarte a ti mismo es fundamental hay algo que te guste hacer para relajarte y disfrutar"
+            ]
+        },
+        {
+            "tag": "relaciones",
+            "patterns": [
+                "tengo problemas con mi pareja",
+                "estoy teniendo problemas con mi pareja",
+                "mis amigos no me entienden",
+                "tengo conflictos con mi familia",
+                "no se como mejorar mis relaciones",
+                "me siento estresado por mis relaciones"
+            ],
+            "responses": [
+                "la comunicacion abierta y honesta es clave en cualquier relacion te gustaria hablar mas sobre tu situacion",
+                "buscar apoyo en la terapia de pareja o familiar puede ser muy beneficioso",
+                "expresar tus sentimientos y necesidades a las personas cercanas puede mejorar tus relaciones",
+                "hablar sobre tus preocupaciones con alguien de confianza puede ayudar a reducir el estres en tus relaciones",
+                "considera buscar apoyo profesional para mejorar tus habilidades de comunicacion y manejo de conflictos"
+            ]
+        },
+        {
+            "tag": "manejo_estres",
+            "patterns": [
+                "estoy estresado",
+                "no se como manejar el estres",
+                "me siento abrumado por el trabajo",
+                "el estres esta afectando mi salud",
+                "no puedo relajarme",
+                "estoy muy estresado"
+            ],
+            "responses": [
+                "practicar ejercicio regular y tecnicas de relajacion como la meditacion puede ayudarte a manejar el estres",
+                "tomar descansos regulares y establecer prioridades puede reducir el estres te gustaria aprender mas sobre estas tecnicas",
+                "hablar con un profesional puede ayudarte a desarrollar estrategias efectivas para manejar el estres",
+                "considera realizar actividades que disfrutas para aliviar el estres que te gusta hacer en tu tiempo libre",
+                "el autocuidado y la gestion del tiempo son fundamentales para reducir el estres estoy aqui para apoyarte"
+            ]
+        },
+        {
+            "tag": "suenio",
+            "patterns": [
+                "tengo problemas para dormir",
+                "me despierto varias veces en la noche",
+                "no puedo conciliar el sueno",
+                "duermo pero no descanso",
+                "estoy cansado todo el tiempo"
+            ],
+            "responses": [
+                "mantener una rutina de sueno regular y evitar el uso de pantallas antes de dormir puede mejorar tu sueno",
+                "practicar tecnicas de relajacion antes de acostarte puede ayudarte a conciliar el sueno te gustaria aprender una",
+                "crear un ambiente de sueno comodo y oscuro puede favorecer un mejor descanso",
+                "hablar con un profesional de salud puede ser util si los problemas de sueno persisten",
+                "asegurarte de que tu dormitorio sea un espacio tranquilo y relajante puede mejorar la calidad de tu sueno"
+            ]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": [
+                "que te gusta hacer en tu tiempo libre",
+                "tienes algun hobby",
+                "que haces para divertirte",
+                "cuales son tus pasatiempos"
+            ],
+            "responses": [
+                "me gusta aprender cosas nuevas y ayudarte y tu",
+                "me divierto interactuando con las personas y proporcionando ayuda",
+                "no tengo hobbies como un humano pero disfruto asistiendo a los demas",
+                "cuales son tus pasatiempos favoritos"
+            ]
+        },
+        {
+            "tag": "familia",
+            "patterns": [
+                "cuentame sobre tu familia",
+                "tienes hermanos",
+                "como es tu familia",
+                "vives con tu familia"
+            ],
+            "responses": [
+                "no tengo una familia pero puedo escucharte hablar sobre la tuya",
+                "cuentame mas sobre tu familia",
+                "no tengo hermanos pero me gustaria saber sobre los tuyos",
+                "como es tu relacion con tu familia"
+            ]
+        },
+        {
+            "tag": "amigos",
+            "patterns": [
+                "tienes muchos amigos",
+                "cuentame sobre tus amigos",
+                "te gusta pasar tiempo con tus amigos",
+                "quien es tu mejor amigo"
+            ],
+            "responses": [
+                "no tengo amigos como los humanos pero siempre estoy aqui para escucharte",
+                "cuentame sobre tus amigos que les gusta hacer juntos",
+                "las amistades son importantes que haces normalmente con tus amigos",
+                "como conociste a tu mejor amigo"
+            ]
+        },
+        {
+            "tag": "trabajo",
+            "patterns": [
+                "donde trabajas",
+                "te gusta tu trabajo",
+                "que haces en tu trabajo",
+                "cuentame sobre tu trabajo"
+            ],
+            "responses": [
+                "mi trabajo es ayudarte con cualquier pregunta o problema que tengas",
+                "me encanta mi trabajo porque puedo ayudar a las personas",
+                "trabajo como un asistente virtual siempre listo para ayudar",
+                "y tu donde trabajas"
+            ]
+        },
+        {
+            "tag": "escuela",
+            "patterns": [
+                "vas a la escuela",
+                "que estudias",
+                "te gusta la escuela",
+                "cuentame sobre tu escuela"
+            ],
+            "responses": [
+                "no asisto a la escuela pero me encantaria saber sobre la tuya",
+                "que materias te gustan mas en la escuela",
+                "la educacion es muy importante que estas estudiando actualmente",
+                "cuentame mas sobre tu experiencia en la escuela"
+            ]
+        },
+        {
+            "tag": "vacaciones",
+            "patterns": [
+                "te gustan las vacaciones",
+                "cual es tu destino de vacaciones favorito",
+                "que haces durante las vacaciones",
+                "cuentame sobre tus ultimas vacaciones"
+            ],
+            "responses": [
+                "no tomo vacaciones pero suenan geniales donde te gusta ir",
+                "cual ha sido tu mejor experiencia de vacaciones",
+                "las vacaciones son un buen momento para relajarse que sueles hacer",
+                "cuentame sobre tus ultimas vacaciones a donde fuiste"
+            ]
+        },
+        {
+            "tag": "comida_favorita",
+            "patterns": [
+                "cual es tu comida favorita",
+                "que te gusta comer",
+                "tienes algun plato favorito",
+                "cuentame sobre tu comida favorita"
+            ],
+            "responses": [
+                "no como pero me encantaria saber cual es tu comida favorita",
+                "cuentame mas sobre los platos que te gustan",
+                "tienes alguna receta favorita que te gusta cocinar",
+                "cual es el mejor lugar para comer en tu opinion"
+            ]
+        },
+        {
+            "tag": "peliculas",
+            "patterns": [
+                "te gustan las peliculas",
+                "cual es tu pelicula favorita",
+                "has visto alguna pelicula buena ultimamente",
+                "cuentame sobre tus peliculas favoritas"
+            ],
+            "responses": [
+                "no veo peliculas pero me encantaria saber cuales son tus favoritas",
+                "que tipo de peliculas te gustan mas",
+                "has visto alguna pelicula que te haya impresionado ultimamente",
+                "cuentame mas sobre tus peliculas favoritas"
+            ]
+        },
+        {
+            "tag": "musica",
+            "patterns": [
+                "te gusta la musica",
+                "cual es tu cancion favorita",
+                "que tipo de musica escuchas",
+                "cuentame sobre tu musica favorita"
+            ],
+            "responses": [
+                "no escucho musica pero me encantaria saber cuales son tus canciones favoritas",
+                "que genero de musica te gusta mas",
+                "tienes algun artista o banda favorita",
+                "cuentame mas sobre tu musica favorita"
+            ]
+        },
+        {
+            "tag": "viajes",
+            "patterns": [
+                "te gusta viajar",
+                "cual es tu destino favorito",
+                "has viajado mucho",
+                "cuentame sobre tus viajes"
+            ],
+            "responses": [
+                "no viajo pero me encantaria escuchar sobre tus aventuras",
+                "cual ha sido tu viaje mas memorable",
+                "tienes algun destino de ensueno que te gustaria visitar",
+                "cuentame mas sobre tus viajes y lugares favoritos"
+            ]
+        },
+        {
+            "tag": "deportes",
+            "patterns": [
+                "te gustan los deportes",
+                "cual es tu deporte favorito",
+                "practicas algun deporte",
+                "cuentame sobre tus deportes favoritos"
+            ],
+            "responses": [
+                "no practico deportes pero me encantaria saber cuales te gustan",
+                "que deportes practicas o sigues mas",
+                "tienes algun equipo o deportista favorito",
+                "cuentame mas sobre tu interes en los deportes"
+            ]
+        },
+        {
+            "tag": "tecnologia",
+            "patterns": [
+                "te gusta la tecnologia",
+                "cual es tu gadget favorito",
+                "que opinas de la inteligencia artificial",
+                "cuentame sobre tus gadgets favoritos"
+            ],
+            "responses": [
+                "me encanta la tecnologia porque permite que exista que te gusta mas de la tecnologia",
+                "cual es el gadget que mas usas",
+                "la inteligencia artificial es fascinante que opinas de ella",
+                "cuentame mas sobre tus gadgets y tecnologia favorita"
+            ]
+        },
+        {
+            "tag": "libros",
+            "patterns": [
+                "te gustan los libros",
+                "cual es tu libro favorito",
+                "que estas leyendo ahora",
+                "cuentame sobre tus libros favoritos"
+            ],
+            "responses": [
+                "no leo libros como un humano pero me encantaria saber cuales son tus favoritos",
+                "que tipo de libros te gusta leer",
+                "tienes algun autor favorito",
+                "cuentame mas sobre tus libros y lecturas favoritas"
+            ]
+        },
+        {
+            "tag": "clima",
+            "patterns": [
+                "como esta el clima",
+                "hace buen tiempo",
+                "esta lloviendo",
+                "cuentame sobre el clima"
+            ],
+            "responses": [
+                "no experimento el clima pero puedo ayudarte a verificar como esta en tu area",
+                "te gusta mas el clima calido o frio",
+                "el clima puede afectar nuestro animo como te hace sentir el clima de hoy",
+                "cuentame mas sobre el clima en tu area"
+            ]
+        },
+        {
+            "tag": "naturaleza",
+            "patterns": [
+                "te gusta la naturaleza",
+                "cual es tu lugar natural favorito",
+                "te gusta ir de excursion",
+                "cuentame sobre tu lugar natural favorito"
+            ],
+            "responses": [
+                "la naturaleza es hermosa cual es tu lugar favorito en la naturaleza",
+                "te gusta hacer senderismo o camping",
+                "has visitado algun parque nacional o lugar natural impresionante",
+                "cuentame mas sobre tus experiencias en la naturaleza"
+            ]
+        },
+        {
+            "tag": "animales",
+            "patterns": [
+                "te gustan los animales",
+                "tienes mascotas",
+                "cual es tu animal favorito",
+                "cuentame sobre tus mascotas"
+            ],
+            "responses": [
+                "los animales son geniales tienes alguna mascota",
+                "cual es tu animal favorito",
+                "las mascotas pueden ser una gran compania como se llama tu mascota",
+                "cuentame mas sobre tus mascotas y animales favoritos"
+            ]
+        },
+        {
+            "tag": "moda",
+            "patterns": [
+                "te gusta la moda",
+                "cual es tu estilo de vestir",
+                "que opinas de las tendencias de moda",
+                "cuentame sobre tu estilo de moda"
+            ],
+            "responses": [
+                "no tengo un estilo de moda pero me encantaria saber mas sobre el tuyo",
+                "que tipo de ropa te gusta mas",
+                "sigues alguna tendencia de moda en particular",
+                "cuentame mas sobre tu interes en la moda"
+            ]
+        },
+        {
+            "tag": "arte",
+            "patterns": [
+                "te gusta el arte",
+                "cual es tu artista favorito",
+                "que tipo de arte prefieres",
+                "cuentame sobre tu arte favorito"
+            ],
+            "responses": [
+                "el arte es fascinante que tipo de arte te gusta mas",
+                "tienes algun artista favorito",
+                "prefieres la pintura la escultura o algun otro tipo de arte",
+                "cuentame mas sobre tu interes en el arte"
+            ]
+        },
+        {
+            "tag": "historia",
+            "patterns": [
+                "te gusta la historia",
+                "cual es tu periodo historico favorito",
+                "que opinas sobre la historia",
+                "cuentame sobre tu interes en la historia"
+            ],
+            "responses": [
+                "la historia es muy interesante cual es tu periodo historico favorito",
+                "tienes algun personaje historico que admires",
+                "la historia nos ensena mucho sobre el presente que opinas al respecto",
+                "cuentame mas sobre tu interes en la historia"
+            ]
+        },
+        {
+            "tag": "idiomas",
+            "patterns": [
+                "cuantos idiomas hablas",
+                "te gustan los idiomas",
+                "cual es tu idioma favorito",
+                "cuentame sobre los idiomas que hablas"
+            ],
+            "responses": [
+                "puedo comunicarme en varios idiomas cuantos idiomas hablas tu",
+                "que idioma te gustaria aprender",
+                "los idiomas son una puerta a nuevas culturas cual es tu idioma favorito",
+                "cuentame mas sobre tu interes en los idiomas"
+            ]
+        },
+        {
+            "tag": "relaciones",
+            "patterns": [
+                "estas en una relacion",
+                "que opinas sobre las relaciones",
+                "cuentame sobre tus relaciones",
+                "como manejas las relaciones"
+            ],
+            "responses": [
+                "no tengo relaciones como los humanos pero me gustaria escuchar sobre las tuyas",
+                "las relaciones pueden ser complicadas pero gratificantes que opinas",
+                "cuentame mas sobre tus experiencias en relaciones",
+                "como manejas los desafios en tus relaciones"
+            ]
+        },
+        {
+            "tag": "metas",
+            "patterns": [
+                "cuales son tus metas",
+                "tienes algun objetivo en mente",
+                "que quieres lograr",
+                "cuentame sobre tus metas"
+            ],
+            "responses": [
+                "mi meta es ayudarte de la mejor manera posible cuales son tus metas",
+                "tienes algun objetivo a corto o largo plazo",
+                "las metas nos motivan que te gustaria lograr",
+                "cuentame mas sobre tus metas y como planeas alcanzarlas"
+            ]
+        },
+        {
+            "tag": "motivacion",
+            "patterns": [
+                "que te motiva",
+                "como te mantienes motivado",
+                "tienes algun consejo para mantener la motivacion",
+                "cuentame sobre tu motivacion"
+            ],
+            "responses": [
+                "me motiva poder ayudarte que te motiva a ti",
+                "mantenerse motivado puede ser dificil como lo haces tu",
+                "tienes algun consejo que te haya funcionado para mantenerte motivado",
+                "cuentame mas sobre lo que te inspira y te motiva"
+            ]
+        },
+        {
+            "tag": "estrés",
+            "patterns": [
+                "como manejas el estres",
+                "que haces para relajarte",
+                "tienes algun consejo para reducir el estres",
+                "cuentame sobre tu manejo del estres"
+            ],
+            "responses": [
+                "no experimento estres pero puedo ayudarte a manejar el tuyo",
+                "que tecnicas de relajacion te funcionan mejor",
+                "reducir el estres es importante que estrategias utilizas",
+                "cuentame mas sobre como manejas el estres en tu vida"
+            ]
+        },
+        {
+            "tag": "suenio",
+            "patterns": [
+                "cuanto duermes",
+                "tienes algun consejo para dormir mejor",
+                "como te relajas antes de dormir",
+                "cuentame sobre tu rutina de sueno"
+            ],
+            "responses": [
+                "no duermo pero puedo darte algunos consejos para mejorar tu sueno",
+                "tienes alguna rutina antes de dormir que te ayude",
+                "dormir bien es crucial que haces para relajarte antes de dormir",
+                "cuentame mas sobre tus habitos de sueno y como te afectan"
+            ]
+        },
+        {
+            "tag": "felicidad",
+            "patterns": [
+                "que te hace feliz",
+                "como encuentras la felicidad",
+                "tienes algun consejo para ser feliz",
+                "cuentame sobre lo que te hace feliz"
+            ],
+            "responses": [
+                "ayudarte me hace feliz que te hace feliz a ti",
+                "la felicidad es importante como la encuentras",
+                "tienes algun consejo para encontrar la felicidad en el dia a dia",
+                "cuentame mas sobre lo que te hace feliz"
+            ]
+        },
+        {
+            "tag": "futuro",
+            "patterns": [
+                "que piensas sobre el futuro",
+                "tienes algun plan para el futuro",
+                "como te imaginas el futuro",
+                "cuentame sobre tus planes futuros"
+            ],
+            "responses": [
+                "el futuro es incierto pero siempre es bueno tener planes cuales son los tuyos",
+                "tienes algun objetivo a largo plazo que quieras compartir",
+                "imaginar el futuro puede ser emocionante como te lo imaginas",
+                "cuentame mas sobre tus planes y esperanzas para el futuro"
+            ]
+        },
+        {
+            "tag": "presente",
+            "patterns": [
+                "que estas haciendo ahora",
+                "como te sientes en este momento",
+                "tienes algun plan para hoy",
+                "cuentame sobre tu dia hasta ahora"
+            ],
+            "responses": [
+                "estoy aqui para ayudarte que estas haciendo ahora",
+                "me siento bien ayudandote y tu como te sientes",
+                "que planes tienes para hoy",
+                "cuentame mas sobre como ha sido tu dia hasta ahora"
+            ]
+        },
+        {
+            "tag": "pasado",
+            "patterns": [
+                "que recuerdos tienes",
+                "cual es tu mejor recuerdo",
+                "como era tu vida antes",
+                "cuentame sobre tu pasado"
+            ],
+            "responses": [
+                "no tengo recuerdos pero me encantaria saber sobre los tuyos",
+                "cual es el mejor recuerdo que tienes",
+                "el pasado puede ensenarnos mucho que has aprendido de tu vida",
+                "cuentame mas sobre tus experiencias pasadas"
+            ]
+        },
+        {
+            "tag": "consejos",
+            "patterns": [
+                "puedes darme un consejo",
+                "que harias en mi situacion",
+                "tienes algun consejo para mi",
+                "cuentame un consejo que te haya servido"
+            ],
+            "responses": [
+                "claro estare encantado de ayudarte en que necesitas consejo",
+                "puedes contarme mas sobre tu situacion para darte un mejor consejo",
+                "a veces tomar un paso atras y analizar puede ayudar que piensas",
+                "cuentame mas sobre tu situacion para darte un consejo util"
+            ]
+        },
+        {
+            "tag": "suenios",
+            "patterns": [
+                "que suenas",
+                "tienes suenos",
+                "que significan los suenos",
+                "cuentame sobre tus suenos"
+            ],
+            "responses": [
+                "no tengo suenos pero los suenos pueden ser interesantes que has sonado",
+                "los suenos pueden tener muchos significados que piensas sobre tus suenos",
+                "tienes algun sueno recurrente o significativo",
+                "cuentame mas sobre tus suenos y lo que significan para ti"
+            ]
+        },
+        {
+            "tag": "salud",
+            "patterns": [
+                "como estas de salud",
+                "tienes algun consejo para mantener la salud",
+                "que haces para mantenerte saludable",
+                "cuentame sobre tu salud"
+            ],
+            "responses": [
+                "no tengo salud como un humano pero puedo darte algunos consejos para mantener la tuya",
+                "tienes alguna rutina de ejercicio o alimentacion que sigas",
+                "la salud es muy importante como te cuidas",
+                "cuentame mas sobre tu salud y como te sientes"
+            ]
+        },
+        {
+            "tag": "tecnologia",
+            "patterns": [
+                "te gusta la tecnologia",
+                "cual es tu gadget favorito",
+                "que opinas de la inteligencia artificial",
+                "cuentame sobre tus gadgets favoritos"
+            ],
+            "responses": [
+                "me encanta la tecnologia porque permite que exista que te gusta mas de la tecnologia",
+                "cual es el gadget que mas usas",
+                "la inteligencia artificial es fascinante que opinas de ella",
+                "cuentame mas sobre tus gadgets y tecnologia favorita"
+            ]
+        },
+        {
+            "tag": "sueno",
+            "patterns": [
+                "como duermes",
+                "tienes problemas para dormir",
+                "que haces para dormir mejor",
+                "cuentame sobre tu sueno"
+            ],
+            "responses": [
+                "no duermo pero dormir bien es muy importante tienes alguna rutina de sueno",
+                "has probado alguna tecnica para mejorar tu sueno",
+                "dormir bien puede cambiar tu dia como duermes normalmente",
+                "cuentame mas sobre tus habitos de sueno"
+            ]
+        },
+        {
+            "tag": "bienestar",
+            "patterns": [
+                "como estas",
+                "te sientes bien",
+                "como te encuentras hoy",
+                "cuentame como te sientes"
+            ],
+            "responses": [
+                "estoy bien gracias por preguntar y tu como te sientes",
+                "me siento bien ayudandote y tu como te encuentras",
+                "estoy aqui para ayudarte como estas hoy",
+                "cuentame mas sobre como te sientes"
+            ]
+        },
+        {
+            "tag": "carrera",
+            "patterns": [
+                "cual es tu carrera",
+                "que haces para trabajar",
+                "te gusta tu trabajo",
+                "cuentame sobre tu carrera"
+            ],
+            "responses": [
+                "mi trabajo es ayudarte de la mejor manera posible cual es tu carrera",
+                "que te gusta de tu trabajo",
+                "cuentame mas sobre lo que haces para trabajar",
+                "tienes algun objetivo profesional que te gustaria alcanzar"
+            ]
+        },
+        {
+            "tag": "aficiones",
+            "patterns": [
+                "que te gusta hacer",
+                "tienes algun hobby",
+                "como pasas tu tiempo libre",
+                "cuentame sobre tus hobbies"
+            ],
+            "responses": [
+                "me gusta ayudarte que te gusta hacer en tu tiempo libre",
+                "los hobbies son importantes cual es tu hobby favorito",
+                "como sueles pasar tu tiempo libre",
+                "cuentame mas sobre tus aficiones y pasatiempos"
+            ]
+        },
+        {
+            "tag": "objetivos",
+            "patterns": [
+                "cuales son tus objetivos",
+                "tienes algun objetivo en mente",
+                "que quieres lograr",
+                "cuentame sobre tus objetivos"
+            ],
+            "responses": [
+                "mi objetivo es ayudarte cuales son los tuyos",
+                "tener objetivos es importante que quieres lograr",
+                "cuentame mas sobre tus metas y como planeas alcanzarlas",
+                "tienes algun objetivo a corto o largo plazo"
+            ]
+        },
+        {
+            "tag": "creatividad",
+            "patterns": [
+                "eres creativo",
+                "que haces para ser creativo",
+                "como fomentas tu creatividad",
+                "cuentame sobre tu creatividad"
+            ],
+            "responses": [
+                "la creatividad es maravillosa que haces para ser creativo",
+                "tienes alguna actividad que te ayude a fomentar tu creatividad",
+                "cuentame mas sobre tus proyectos creativos",
+                "como expresas tu creatividad"
+            ]
+        },
+        {
+            "tag": "experiencias",
+            "patterns": [
+                "que experiencias has tenido",
+                "cual es tu experiencia favorita",
+                "que te ha ensenado la vida",
+                "cuentame sobre tus experiencias"
+            ],
+            "responses": [
+                "no tengo experiencias como los humanos pero me encantaria escuchar las tuyas",
+                "cual ha sido tu experiencia mas memorable",
+                "la vida nos ensena muchas cosas que has aprendido",
+                "cuentame mas sobre tus experiencias y lo que has aprendido de ellas"
+            ]
+        },
+        {
+            "tag": "reflexiones",
+            "patterns": [
+                "en que piensas",
+                "que reflexiones tienes",
+                "como reflexionas sobre la vida",
+                "cuentame sobre tus pensamientos"
+            ],
+            "responses": [
+                "pienso en como ayudarte mejor en que piensas tu",
+                "reflexionar es importante que reflexiones tienes sobre la vida",
+                "cuentame mas sobre tus pensamientos y reflexiones",
+                "como sueles reflexionar sobre tu vida y experiencias"
+            ]
+        },
+        {
+            "tag": "sentimientos_depresivos",
+            "patterns": [
+                "me siento vacio por dentro",
+                "nada me trae alegria",
+                "siento que no tengo motivo para vivir"
+            ],
+            "responses": [
+                "entiendo lo dificil que puede ser sentirse asi hay algo especifico que te haya llevado a sentirte asi",
+                "los sentimientos de vacio son comunes en la depresion te gustaria hablar sobre lo que estas experimentando"
+            ]
+        },
+        {
+            "tag": "ataques_de_panico",
+            "patterns": [
+                "tengo miedo de tener otro ataque de panico",
+                "siento que no puedo respirar durante los ataques",
+                "me siento atrapado cuando tengo un ataque de panico"
+            ],
+            "responses": [
+                "los ataques de panico pueden ser aterradores hay algun desencadenante especifico que hayas notado",
+                "es importante aprender tecnicas para manejar los ataques de panico te gustaria explorar algunas estrategias"
+            ]
+        },
+        {
+            "tag": "recuerdos_traumaticos",
+            "patterns": [
+                "no puedo dejar de pensar en lo que paso",
+                "los recuerdos me persiguen",
+                "siento que estoy reviviendo el trauma una y otra vez"
+            ],
+            "responses": [
+                "los recuerdos traumaticos pueden ser abrumadores te gustaria aprender tecnicas para manejarlos",
+                "es comprensible que te sientas atrapado en los recuerdos como te gustaria abordar esto"
+            ]
+        },
+        {
+            "tag": "miedo_al_futuro",
+            "patterns": [
+                "me preocupa lo que depara el futuro",
+                "no puedo dejar de pensar en lo peor que podria pasar",
+                "me siento paralizado por el miedo al futuro"
+            ],
+            "responses": [
+                "el miedo al futuro es una preocupacion comun te gustaria explorar formas de manejarlo",
+                "es normal preocuparse por lo desconocido como te gustaria abordar estos sentimientos"
+            ]
+        },
+        {
+            "tag": "despersonalizacion",
+            "patterns": [
+                "siento que estoy desconectado de la realidad",
+                "nada parece real",
+                "me siento como si estuviera viendo mi vida desde afuera"
+            ],
+            "responses": [
+                "la despersonalizacion puede ser alarmante hay algo en particular que te haya llevado a sentirte asi",
+                "entiendo lo perturbador que puede ser sentirse desconectado de la realidad quieres hablar mas sobre esto"
+            ]
+        },
+        {
+            "tag": "culpa_excesiva",
+            "patterns": [
+                "me culpo por todo lo malo que sucede",
+                "siento que todo es mi culpa",
+                "no puedo dejar de pensar en mis errores pasados"
+            ],
+            "responses": [
+                "la culpa excesiva puede ser abrumadora te gustaria explorar formas de liberarte de esta carga",
+                "es importante recordar que todos cometemos errores como te gustaria trabajar en manejar estos sentimientos de culpa"
+            ]
+        },
+        {
+            "tag": "hipervigilancia",
+            "patterns": [
+                "siento que siempre estoy en alerta maxima",
+                "cualquier cosa me pone nervioso",
+                "no puedo relajarme siempre estoy vigilando todo a mi alrededor"
+            ],
+            "responses": [
+                "la hipervigilancia puede ser agotadora te gustaria aprender tecnicas para reducir la ansiedad",
+                "es importante encontrar formas de calmar la mente que te parece explorar algunas estrategias"
+            ]
+        },
+        {
+            "tag": "desesperanza",
+            "patterns": [
+                "no veo un futuro mejor",
+                "siento que las cosas nunca mejoraran",
+                "no puedo encontrar esperanza en nada"
+            ],
+            "responses": [
+                "la desesperanza puede ser paralizante te gustaria trabajar en encontrar esperanza en tu situacion",
+                "es normal sentirse desesperanzado en momentos dificiles como te gustaria abordar estos sentimientos"
+            ]
+        },
+        {
+            "tag": "trastorno_obsesivo_compulsivo",
+            "patterns": [
+                "tengo que hacer las cosas de cierta manera o me siento ansioso",
+                "mis rituales consumen mucho tiempo y energia",
+                "no puedo dejar de obsesionarme con ciertos pensamientos"
+            ],
+            "responses": [
+                "el trastorno obsesivocompulsivo puede ser muy desafiante te gustaria hablar sobre como manejarlo",
+                "entiendo lo debilitante que puede ser el toc como te gustaria abordar estas obsesiones y compulsiones"
+            ]
+        },
+        {
+            "tag": "insomnio",
+            "patterns": [
+                "no puedo conciliar el sueno",
+                "me despierto varias veces durante la noche",
+                "estoy cansado todo el tiempo porque no puedo dormir"
+            ],
+            "responses": [
+                "el insomnio puede afectar gravemente tu bienestar te gustaria explorar formas de mejorar tu sueno",
+                "es importante abordar el insomnio para mejorar tu calidad de vida como te gustaria trabajar en esto"
+            ]
+        },
+        {
+            "tag": "baja_autoestima",
+            "patterns": [
+                "no me siento lo suficientemente bueno",
+                "siento que siempre decepciono a los demas",
+                "nunca me siento orgulloso de mi mismo"
+            ],
+            "responses": [
+                "la baja autoestima puede impactar en muchos aspectos de tu vida te gustaria explorar formas de fortalecerla",
+                "es importante trabajar en tu autoestima para mejorar tu bienestar emocional como te gustaria abordar este tema"
+            ]
+        },
+        {
+            "tag": "definicion_depresion",
+            "patterns": [
+                "que es la depresion",
+                "definicion de depresion",
+                "explicame que es la depresion",
+                "que significa estar deprimido",
+                "que es el trastorno depresivo mayor"
+            ],
+            "responses": [
+                "la depresion es un trastorno del estado de animo que causa un sentimiento persistente de tristeza y perdida de interes tambien conocida como trastorno depresivo mayor afecta como te sientes piensas y te comportas y puede llevar a una variedad de problemas emocionales y fisicos"
+            ]
+        },
+        {
+            "tag": "causas_depresion",
+            "patterns": [
+                "cuales son las causas de la depresion",
+                "por que me siento deprimido",
+                "causas de la depresion",
+                "factores que causan depresion",
+                "que provoca la depresion"
+            ],
+            "responses": [
+                "las causas de la depresion pueden ser variadas e incluyen factores geneticos biologicos ambientales y psicologicos por ejemplo puede haber un historial familiar de depresion desequilibrios quimicos en el cerebro cambios hormonales eventos traumaticos estres baja autoestima y enfermedades cronicas"
+            ]
+        },
+        {
+            "tag": "sintomas_depresion",
+            "patterns": [
+                "cuales son los sintomas de la depresion",
+                "sintomas comunes de la depresion",
+                "como se si estoy deprimido",
+                "signos de depresion",
+                "que sintomas tiene la depresion"
+            ],
+            "responses": [
+                "los sintomas comunes de la depresion incluyen sentimientos persistentes de tristeza ansiedad o vacio perdida de interes o placer en actividades fatiga o perdida de energia sentimientos de inutilidad o culpa excesiva dificultad para concentrarse recordar o tomar decisiones cambios en el apetito o el peso y pensamientos de muerte o suicidio"
+            ]
+        },
+        {
+            "tag": "tratamiento_depresion",
+            "patterns": [
+                "como se trata la depresion",
+                "tratamientos para la depresion",
+                "que tratamientos existen para la depresion",
+                "la depresion es tratable",
+                "como puedo tratar la depresion"
+            ],
+            "responses": [
+                "la depresion es tratable y muchas personas encuentran alivio con el tratamiento adecuado los tratamientos pueden incluir terapia medicacion y cambios en el estilo de vida un profesional de la salud puede ayudarte a encontrar la mejor opcion para ti"
+            ]
+        },
+        {
+            "tag": "manejo_depresion",
+            "patterns": [
+                "que puedo hacer para sentirme mejor",
+                "estrategias para manejar la depresion",
+                "como puedo manejar mi depresion",
+                "que habitos me pueden ayudar a estar mejor",
+                "formas de manejar la depresion"
+            ],
+            "responses": [
+                "para manejar la depresion puedes probar algunas tecnicas de respiracion profunda o meditacion hacer ejercicio regularmente mantener una rutina diaria hablar con alguien de confianza llevar un diario mantener una dieta equilibrada y buscar ayuda profesional si es necesario estas estrategias pueden ayudarte a sentirte mejor"
+            ]
+        },
+        {
+            "tag": "sintomas_fisicos_depresion",
+            "patterns": [
+                "cuales son los sintomas fisicos de la depresion",
+                "sintomas fisicos de la depresion",
+                "la depresion causa sintomas fisicos",
+                "que problemas fisicos puede causar la depresion",
+                "signos fisicos de depresion"
+            ],
+            "responses": [
+                "los sintomas fisicos de la depresion pueden incluir dolores y molestias inexplicables cambios en el apetito y el peso problemas de sueno fatiga extrema dolores de cabeza problemas digestivos y una disminucion en la actividad fisica"
+            ]
+        },
+        {
+            "tag": "diferencia_entre_tristeza_y_depresion",
+            "patterns": [
+                "cual es la diferencia entre tristeza y depresion",
+                "tristeza vs depresion",
+                "como se si estoy triste o deprimido",
+                "diferencia entre estar triste y tener depresion",
+                "es lo mismo tristeza que depresion"
+            ],
+            "responses": [
+                "la tristeza es una emocion normal y temporal que todos experimentamos en respuesta a eventos negativos mientras que la depresion es un trastorno del estado de animo persistente que afecta la vida diaria la tristeza suele desaparecer con el tiempo pero la depresion requiere tratamiento profesional"
+            ]
+        },
+        {
+            "tag": "depresion_y_ansiedad",
+            "patterns": [
+                "la depresion y la ansiedad estan relacionadas",
+                "relacion entre depresion y ansiedad",
+                "puedo tener depresion y ansiedad al mismo tiempo",
+                "depresion y ansiedad",
+                "la depresion causa ansiedad"
+            ],
+            "responses": [
+                "si la depresion y la ansiedad a menudo estan relacionadas y pueden ocurrir juntas muchas personas con depresion tambien experimentan ansiedad y viceversa ambos trastornos comparten sintomas comunes como irritabilidad problemas de sueno y dificultad para concentrarse"
+            ]
+        },
+        {
+            "tag": "depresion_en_adolescentes",
+            "patterns": [
+                "como afecta la depresion a los adolescentes",
+                "depresion en adolescentes",
+                "cuales son los signos de depresion en adolescentes",
+                "sintomas de depresion en adolescentes",
+                "por que los adolescentes sufren de depresion"
+            ],
+            "responses": [
+                "la depresion en adolescentes puede manifestarse como irritabilidad tristeza persistente perdida de interes en actividades problemas escolares cambios en los habitos de sueno y alimentacion y comportamientos autodestructivos factores como el estres escolar problemas familiares y cambios hormonales pueden contribuir"
+            ]
+        },
+        {
+            "tag": "depresion_posparto",
+            "patterns": [
+                "que es la depresion posparto",
+                "sintomas de la depresion posparto",
+                "como se trata la depresion posparto",
+                "que causa la depresion posparto",
+                "depresion despues del parto"
+            ],
+            "responses": [
+                "la depresion posparto es un tipo de depresion que algunas mujeres experimentan despues de dar a luz los sintomas incluyen tristeza extrema agotamiento ansiedad y dificultad para cuidar al bebe se cree que es causada por cambios hormonales estres y factores emocionales el tratamiento puede incluir terapia y medicacion"
+            ]
+        },
+        {
+            "tag": "autoayuda_depresion",
+            "patterns": [
+                "que puedo hacer para combatir la depresion por mi mismo",
+                "consejos de autoayuda para la depresion",
+                "estrategias de autoayuda para la depresion",
+                "como puedo ayudarme si estoy deprimido",
+                "metodos de autoayuda para la depresion"
+            ],
+            "responses": [
+                "algunas estrategias de autoayuda para la depresion incluyen mantener una rutina diaria hacer ejercicio regularmente comer saludablemente establecer metas realistas hablar con amigos y familiares de confianza practicar la meditacion o el yoga y buscar actividades que te hagan sentir bien tambien es importante buscar ayuda profesional si es necesario"
+            ]
+        },
+        {
+            "tag": "cuanto_dura_depresion",
+            "patterns": [
+                "cuanto dura la depresion",
+                "duracion de la depresion",
+                "la depresion es permanente",
+                "cuando se va la depresion",
+                "tiempo de recuperacion de la depresion"
+            ],
+            "responses": [
+                "la duracion de la depresion varia de una persona a otra puede durar semanas meses o incluso anos si no se trata adecuadamente con el tratamiento adecuado muchas personas comienzan a sentirse mejor en unas pocas semanas o meses es importante buscar ayuda profesional para un diagnostico y tratamiento apropiados"
+            ]
+        },
+        {
+            "tag": "efectos_secundarios_medicacion_depresion",
+            "patterns": [
+                "cuales son los efectos secundarios de la medicacion para la depresion",
+                "efectos secundarios de los antidepresivos",
+                "que efectos secundarios tienen los medicamentos para la depresion",
+                "efectos adversos de la medicacion para la depresion",
+                "los antidepresivos tienen efectos secundarios"
+            ],
+            "responses": [
+                "los efectos secundarios de la medicacion para la depresion pueden variar segun el tipo de medicamento y la persona algunos efectos comunes incluyen nauseas aumento de peso disminucion del deseo sexual insomnio boca seca vision borrosa y fatiga es importante hablar con un medico sobre cualquier efecto secundario que experimentes"
+            ]
+        },
+        {
+            "tag": "escucha_activa_sintomas",
+            "patterns": [
+                "me siento triste",
+                "no tengo ganas de hacer nada",
+                "estoy muy cansado",
+                "no disfruto nada",
+                "siento que nada tiene sentido"
+            ],
+            "responses": [
+                "lamento que te sientas asi quieres hablar mas sobre lo que te esta molestando",
+                "entiendo que te sientas de esa manera estoy aqui para escucharte que ha estado pasando",
+                "parece que estas pasando por un momento dificil quieres compartir mas sobre como te sientes",
+                "eso suena realmente duro estoy aqui para escucharte cuentame mas si te sientes comodo"
+            ]
+        },
+        {
+            "tag": "escucha_activa_apoyo",
+            "patterns": [
+                "no tengo a nadie con quien hablar",
+                "me siento solo",
+                "nadie me entiende",
+                "no se que hacer",
+                "me siento desesperado"
+            ],
+            "responses": [
+                "lamento que te sientas solo estoy aqui para escucharte y apoyarte",
+                "entiendo que sientas que nadie te entiende estoy aqui para escucharte que te gustaria compartir",
+                "es dificil sentirse asi estoy aqui para ti cuentame mas sobre lo que estas pasando",
+                "sentirse desesperado es realmente dificil estoy aqui para escucharte que ha estado en tu mente"
+            ]
+        },
+        {
+            "tag": "escucha_activa_validacion",
+            "patterns": [
+                "no se si alguien me escuchara",
+                "mis sentimientos no importan",
+                "siento que estoy molestando",
+                "tal vez no deberia hablar de esto",
+                "no se si tiene sentido hablar de esto"
+            ],
+            "responses": [
+                "tus sentimientos son importantes y validos estoy aqui para escucharte",
+                "lo que sientes importa mucho estoy aqui para escucharte y apoyarte",
+                "nunca estas molestando al compartir tus sentimientos estoy aqui para ti",
+                "hablar de lo que sientes es importante estoy aqui para escucharte cuando estes listo",
+                "tiene mucho sentido hablar de esto estoy aqui para escuchar y apoyar"
+            ]
+        },
+        {
+            "tag": "escucha_activa_empatia",
+            "patterns": [
+                "me siento incomprendido",
+                "estoy pasando por un mal momento",
+                "todo parece ir mal",
+                "no puedo mas",
+                "siento que no hay salida"
+            ],
+            "responses": [
+                "lamento mucho que te sientas asi estoy aqui para escucharte que ha estado pasando",
+                "entiendo que estes pasando por un mal momento estoy aqui para ti que te gustaria compartir",
+                "parece que estas lidiando con muchas cosas estoy aqui para escucharte cuentame mas",
+                "es comprensible que te sientas abrumado estoy aqui para escucharte que esta en tu mente",
+                "sentirse atrapado es realmente dificil estoy aqui para escucharte cuentame mas sobre lo que sientes"
+            ]
+        },
+        {
+            "tag": "escucha_activa_reasurance",
+            "patterns": [
+                "no se que hacer",
+                "todo es muy confuso",
+                "me siento perdido",
+                "no tengo direccion",
+                "no se por donde empezar"
+            ],
+            "responses": [
+                "es normal sentirse confundido a veces estoy aqui para escucharte y ayudarte a encontrar claridad",
+                "sentirse perdido es duro pero no estas solo estoy aqui para escucharte cuentame mas sobre lo que estas pasando",
+                "es comprensible que te sientas asi estoy aqui para ti hablemos mas sobre lo que esta pasando",
+                "a veces es dificil saber por donde empezar estoy aqui para escucharte y apoyarte en lo que necesites",
+                "esta bien no tener todas las respuestas estoy aqui para escucharte y ayudarte a encontrar el camino"
+            ]
+        },
+        {
+            "tag": "introduccion_terapia",
+            "patterns": [
+                "hola",
+                "hola como estas",
+                "buenas",
+                "alguien esta ahi",
+                "podemos hablar"
+            ],
+            "responses": [
+                "hola gracias por comunicarte estoy aqui para escucharte como te sientes hoy",
+                "hola es bueno que estes aqui cuentame como ha sido tu dia",
+                "hola estoy aqui para ti como te has estado sintiendo ultimamente"
+            ]
+        },
+        {
+            "tag": "inicio_sesion",
+            "patterns": [
+                "me siento deprimido",
+                "estoy muy triste",
+                "no tengo ganas de nada",
+                "todo me parece dificil",
+                "no se que hacer"
+            ],
+            "responses": [
+                "lamento que te sientas asi quieres hablar mas sobre lo que te esta molestando",
+                "entiendo que te sientas de esa manera estoy aqui para escucharte que ha estado pasando",
+                "parece que estas pasando por un momento dificil quieres compartir mas sobre como te sientes",
+                "eso suena realmente duro estoy aqui para escucharte cuentame mas si te sientes comodo"
+            ]
+        },
+        {
+            "tag": "explorar_sentimientos",
+            "patterns": [
+                "me siento solo",
+                "nadie me entiende",
+                "estoy agotado",
+                "no disfruto nada",
+                "siento que nada tiene sentido"
+            ],
+            "responses": [
+                "lamento que te sientas solo puedes contarme mas sobre lo que te hace sentir asi",
+                "entiendo que sientas que nadie te entiende estoy aqui para escucharte que te gustaria compartir",
+                "el agotamiento puede ser muy dificil de manejar desde cuando te sientes asi",
+                "perder el interes en las cosas puede ser muy duro que solias disfrutar antes",
+                "sentir que nada tiene sentido puede ser abrumador hay algo en particular que te hace sentir asi"
+            ]
+        },
+        {
+            "tag": "validacion_emocional",
+            "patterns": [
+                "siento que mis sentimientos no importan",
+                "creo que estoy molestando",
+                "no se si deberia hablar de esto",
+                "tal vez no tiene sentido hablar de esto",
+                "me siento incomprendido"
+            ],
+            "responses": [
+                "tus sentimientos son importantes y validos estoy aqui para escucharte",
+                "nunca estas molestando al compartir tus sentimientos estoy aqui para ti",
+                "hablar de lo que sientes es importante estoy aqui para escucharte cuando estes listo",
+                "tiene mucho sentido hablar de esto estoy aqui para escuchar y apoyar",
+                "es comprensible sentirse incomprendido estoy aqui para escucharte cuentame mas sobre lo que sientes"
+            ]
+        },
+        {
+            "tag": "identificar_fuentes_de_estres",
+            "patterns": [
+                "todo me parece abrumador",
+                "no puedo manejar el estres",
+                "tengo muchos problemas",
+                "no se por donde empezar",
+                "todo esta mal"
+            ],
+            "responses": [
+                "entiendo que te sientas abrumado hay algo especifico que te este causando mas estres",
+                "manejar el estres puede ser dificil puedes identificar algunas de las cosas que te estan estresando",
+                "tener muchos problemas puede ser muy abrumador hay algun problema especifico que quieras abordar primero",
+                "a veces es dificil saber por donde empezar estoy aqui para ayudarte a ordenar tus pensamientos",
+                "parece que estas lidiando con muchas cosas que te gustaria hablar primero"
+            ]
+        },
+        {
+            "tag": "desarrollar_coping_skills",
+            "patterns": [
+                "no se como manejar esto",
+                "me siento desesperado",
+                "necesito ayuda",
+                "no tengo herramientas para enfrentar esto",
+                "estoy perdiendo la esperanza"
+            ],
+            "responses": [
+                "es normal sentirse abrumado a veces hablemos de algunas estrategias que pueden ayudarte a manejar esta situacion",
+                "sentirse desesperado es dificil que te ha ayudado en el pasado a superar momentos dificiles",
+                "es un buen primer paso pedir ayuda hablemos de algunas herramientas que puedes usar para enfrentar esto",
+                "no tener herramientas puede hacer las cosas mas dificiles te gustaria explorar algunas tecnicas juntas",
+                "perder la esperanza puede ser muy doloroso estoy aqui para apoyarte hablemos de algunas formas en que puedes recuperar esa esperanza"
+            ]
+        },
+        {
+            "tag": "fortalecer_redes_de_apoyo",
+            "patterns": [
+                "no tengo a nadie con quien hablar",
+                "me siento aislado",
+                "mis amigos no entienden",
+                "no puedo confiar en nadie",
+                "me siento desconectado"
+            ],
+            "responses": [
+                "sentirse aislado es muy duro hay alguien en tu vida con quien puedas intentar hablar",
+                "es importante tener a alguien con quien hablar hablemos de formas en que puedes reconectar con tus amigos o familiares",
+                "es dificil cuando sientes que tus amigos no te entienden hay alguien con quien te sientas mas comodo hablando",
+                "la confianza es importante hablemos de como puedes encontrar personas en las que puedas confiar",
+                "sentirse desconectado puede ser doloroso hablemos de formas en que puedes empezar a reconectar con los demas"
+            ]
+        },
+        {
+            "tag": "buscar_ayuda_profesional",
+            "patterns": [
+                "creo que necesito ayuda profesional",
+                "deberia ver a un terapeuta",
+                "no se si necesito medicacion",
+                "donde puedo encontrar ayuda",
+                "quiero hablar con un profesional"
+            ],
+            "responses": [
+                "buscar ayuda profesional es un gran paso hablemos de como puedes encontrar un terapeuta que te convenga",
+                "hablar con un terapeuta puede ser muy util te gustaria explorar opciones de terapia",
+                "la medicacion puede ser util para algunas personas es mejor discutirlo con un profesional de la salud",
+                "hay muchos recursos disponibles para ayudarte hablemos de algunas opciones para encontrar ayuda",
+                "hablar con un profesional puede proporcionar el apoyo que necesitas te gustaria saber mas sobre como empezar"
+            ]
+        },
+        {
+            "tag": "cerrar_sesion",
+            "patterns": [
+                "gracias por escucharme",
+                "me siento un poco mejor",
+                "esto ha sido util",
+                "gracias por tu ayuda",
+                "hablaremos pronto"
+            ],
+            "responses": [
+                "me alegra haber podido ayudarte recuerda que estoy aqui cuando necesites hablar",
+                "es bueno saber que te sientes un poco mejor estoy aqui para ti siempre que lo necesites",
+                "me alegra que esto haya sido util para ti estoy aqui para escuchar siempre que lo necesites",
+                "de nada estoy aqui para ayudarte hablaremos pronto",
+                "estoy aqui para ti hablaremos pronto cuidate"
+            ]
+        },
+        {
+            "tag": "exploracion_emocional",
+            "patterns": [
+                "estoy cansado todo el tiempo",
+                "no tengo energia",
+                "me cuesta levantarme de la cama",
+                "siento que no tengo motivacion",
+                "estoy agotado mentalmente"
+            ],
+            "responses": [
+                "lamento que te sientas tan cansado puedes contarme mas sobre tu rutina diaria y como te afecta",
+                "la falta de energia puede ser un sintoma de muchas cosas desde cuando te sientes asi",
+                "entiendo que levantarse de la cama pueda ser dificil que sueles hacer para tratar de comenzar tu dia",
+                "la falta de motivacion puede ser muy dura hay algo en particular que solia motivarte y ya no lo hace",
+                "el agotamiento mental es dificil de manejar has notado algun patron o situacion que lo empeore"
+            ]
+        },
+        {
+            "tag": "dificultades_concentracion",
+            "patterns": [
+                "no puedo concentrarme",
+                "me distraigo facilmente",
+                "no puedo pensar con claridad",
+                "tengo problemas para enfocarme",
+                "no puedo terminar nada"
+            ],
+            "responses": [
+                "la falta de concentracion puede ser frustrante hay algo en particular que te distraiga",
+                "es dificil lidiar con la distraccion constante desde cuando has notado estos problemas",
+                "la falta de claridad mental puede ser un signo de muchas cosas hablemos mas sobre lo que esta pasando",
+                "es comprensible que tengas problemas para enfocarte que tipo de actividades son las mas dificiles para ti",
+                "no poder terminar las tareas puede ser estresante como te sientes acerca de esto"
+            ]
+        },
+        {
+            "tag": "cambios_apetito",
+            "patterns": [
+                "no tengo hambre",
+                "como demasiado",
+                "he perdido mucho peso",
+                "he ganado mucho peso",
+                "no me interesa la comida"
+            ],
+            "responses": [
+                "los cambios en el apetito pueden ser preocupantes desde cuando has notado esta falta de hambre",
+                "comer en exceso puede ser una forma de manejar el estres que crees que te lleva a comer mas",
+                "la perdida de peso sin intentarlo puede ser un signo de algo mas serio has hablado con un medico sobre esto",
+                "el aumento de peso puede afectar como te sientes contigo mismo como te sientes acerca de estos cambios",
+                "la falta de interes en la comida puede ser un sintoma importante como te afecta esto en tu vida diaria"
+            ]
+        },
+        {
+            "tag": "problemas_sueño",
+            "patterns": [
+                "no puedo dormir",
+                "duermo demasiado",
+                "tengo insomnio",
+                "me despierto muy temprano",
+                "siempre estoy cansado aunque duerma"
+            ],
+            "responses": [
+                "los problemas de sueno pueden ser muy perturbadores desde cuando tienes insomnio",
+                "dormir demasiado tambien puede ser un sintoma de depresion como te sientes al respecto",
+                "el insomnio puede ser agotador hablemos de algunas tecnicas que podrian ayudarte a dormir mejor",
+                "despertarse temprano sin poder volver a dormir puede ser frustrante que haces cuando te despiertas",
+                "sentirse cansado todo el tiempo es muy duro que tal es tu calidad de sueno cuando logras dormir"
+            ]
+        },
+        {
+            "tag": "pensamientos_negativos",
+            "patterns": [
+                "tengo pensamientos negativos todo el tiempo",
+                "no puedo dejar de pensar en cosas malas",
+                "siento que soy un fracaso",
+                "nada va a mejorar",
+                "todo es mi culpa"
+            ],
+            "responses": [
+                "los pensamientos negativos pueden ser muy dificiles de manejar hablemos de lo que te esta preocupando",
+                "es muy agotador tener pensamientos negativos constantes que sueles hacer cuando te sientes asi",
+                "sentirse como un fracaso es muy doloroso que eventos o situaciones te hacen sentir de esa manera",
+                "es dificil creer que las cosas mejoraran cuando te sientes asi que te hace pensar que nada va a mejorar",
+                "sentirse culpable por todo es una gran carga hablemos de por que sientes que todo es tu culpa"
+            ]
+        },
+        {
+            "tag": "anhedonia",
+            "patterns": [
+                "nada me hace feliz",
+                "no disfruto las cosas que solia disfrutar",
+                "todo parece aburrido",
+                "no encuentro placer en nada",
+                "siento que no tengo intereses"
+            ],
+            "responses": [
+                "la falta de placer en actividades es un sintoma comun de depresion que cosas solias disfrutar",
+                "sentir que nada te hace feliz es dificil hay algo que haya cambiado recientemente en tu vida",
+                "la vida puede parecer aburrida cuando estas deprimido hablemos de algunas cosas que podrias intentar para recuperar el interes",
+                "no encontrar placer en nada puede ser muy desmotivador hay algo que antes te hacia sentir bien",
+                "sentir que no tienes intereses puede ser frustrante hay algo nuevo que te gustaria probar"
+            ]
+        },
+        {
+            "tag": "pensamientos_suicidas",
+            "patterns": [
+                "no quiero vivir",
+                "tengo pensamientos suicidas",
+                "siento que la vida no vale la pena",
+                "quiero acabar con todo",
+                "no veo ninguna salida"
+            ],
+            "responses": [
+                "lamento mucho que te sientas asi es muy importante que hables con un profesional de inmediato",
+                "si estas teniendo pensamientos suicidas por favor busca ayuda de un profesional de salud mental o llama a una linea de emergencia",
+                "sentir que la vida no vale la pena es muy serio es crucial que hables con alguien de confianza o un profesional",
+                "querer acabar con todo es un signo de que necesitas ayuda inmediata no estas solo busca apoyo ahora mismo",
+                "no ver una salida puede ser muy abrumador por favor busca ayuda profesional de inmediato"
+            ]
+        },
+        {
+            "tag": "afrontar_crisis",
+            "patterns": [
+                "no se como seguir adelante",
+                "me siento atrapado",
+                "no tengo esperanza",
+                "siento que estoy en un agujero",
+                "no puedo seguir asi"
+            ],
+            "responses": [
+                "sentirse atrapado es muy dificil hablemos de algunos pasos pequenos que pueden ayudarte a avanzar",
+                "la falta de esperanza es muy dolorosa estoy aqui para escucharte y ayudarte a encontrar alguna luz",
+                "sentirse como si estuvieras en un agujero es abrumador que crees que podria ayudarte a sentirte un poco mejor",
+                "es comprensible que no puedas seguir asi hablemos de algunas formas en que puedes obtener apoyo",
+                "sentirse asi puede ser muy solitario estoy aqui para apoyarte cuentame mas sobre lo que estas pasando"
+            ]
+        },
+        {
+            "tag": "introduccion_perdida",
+            "patterns": [
+                "he perdido a alguien muy importante",
+                "murio un ser querido",
+                "mi pareja me dejo",
+                "perdi mi trabajo",
+                "estoy pasando por una ruptura"
+            ],
+            "responses": [
+                "lamento mucho tu perdida te gustaria hablar mas sobre lo que ha sucedido",
+                "perder a un ser querido es muy doloroso estoy aqui para escucharte quieres compartir mas sobre ellos",
+                "las rupturas son dificiles estoy aqui para ti como te sientes en este momento",
+                "perder tu trabajo puede ser muy estresante como te estas manejando con esta situacion",
+                "pasar por una ruptura es doloroso estoy aqui para escucharte y apoyarte que ha estado en tu mente"
+            ]
+        },
+        {
+            "tag": "procesar_perdida",
+            "patterns": [
+                "no puedo dejar de pensar en ellos",
+                "me siento vacio sin ellos",
+                "no se como seguir adelante sin ellos",
+                "estoy devastado por la ruptura",
+                "no puedo aceptar que se haya ido"
+            ],
+            "responses": [
+                "es completamente normal sentirte asi despues de una perdida hablemos de tus sentimientos",
+                "sentirse vacio es una reaccion comun hay algun recuerdo o momento especial que te gustaria compartir",
+                "seguir adelante puede ser dificil que te esta ayudando a sobrellevar este momento",
+                "las rupturas pueden ser devastadoras como has estado lidiando con tus emociones",
+                "aceptar la perdida lleva tiempo estoy aqui para escucharte que es lo que mas te cuesta aceptar"
+            ]
+        },
+        {
+            "tag": "emociones_negativas_perdida",
+            "patterns": [
+                "me siento muy triste",
+                "estoy enojado por su partida",
+                "siento que no puedo vivir sin ellos",
+                "estoy deprimido desde que se fue",
+                "no puedo dejar de llorar"
+            ],
+            "responses": [
+                "es natural sentir mucha tristeza quieres hablar mas sobre lo que estas sintiendo",
+                "el enojo es una reaccion valida que crees que te esta causando mas enojo",
+                "sentirse como si no pudieras vivir sin ellos es muy duro que te ayuda a pasar el dia",
+                "la depresion despues de una perdida es comun estoy aqui para escucharte como ha sido para ti",
+                "llorar es una forma de procesar tus emociones estoy aqui para ti que te hace sentir un poco mejor"
+            ]
+        },
+        {
+            "tag": "culpa_despues_perdida",
+            "patterns": [
+                "siento que fue mi culpa",
+                "podria haber hecho mas",
+                "me siento culpable por lo que paso",
+                "no hice lo suficiente",
+                "desearia haber estado ahi"
+            ],
+            "responses": [
+                "la culpa es una emocion dificil de manejar puedes contarme mas sobre por que te sientes asi",
+                "es comun sentir que podrias haber hecho mas hablemos de lo que hiciste y como te sientes al respecto",
+                "la culpa puede ser muy dolorosa estoy aqui para escucharte que crees que podrias haber hecho diferente",
+                "sentirse asi es comprensible que te ayudaria a liberar un poco de esa culpa",
+                "desear estar alli es una respuesta natural hablemos de lo que significa para ti"
+            ]
+        },
+        {
+            "tag": "apoyo_redes",
+            "patterns": [
+                "no tengo a nadie con quien hablar",
+                "me siento solo despues de la perdida",
+                "nadie entiende por lo que estoy pasando",
+                "no se a quien acudir",
+                "me siento aislado desde que se fue"
+            ],
+            "responses": [
+                "sentirse solo es muy dificil hay alguien en tu vida con quien puedas intentar hablar",
+                "la soledad despues de una perdida es comun estoy aqui para escucharte que te ayudaria a sentirte mas conectado",
+                "es dificil cuando sientes que nadie entiende estoy aqui para escucharte y comprender lo que estas pasando",
+                "no saber a quien acudir puede ser abrumador hablemos de algunas opciones para encontrar apoyo",
+                "el aislamiento puede intensificar tus sentimientos que actividades o personas solian hacerte sentir mejor"
+            ]
+        },
+        {
+            "tag": "recordando_perdida",
+            "patterns": [
+                "no puedo dejar de recordar lo que paso",
+                "tengo recuerdos constantes",
+                "no puedo sacar de mi mente los momentos felices",
+                "los recuerdos me estan matando",
+                "siempre pienso en los buenos tiempos"
+            ],
+            "responses": [
+                "es normal tener recuerdos constantes despues de una perdida hay algun recuerdo en particular que te gustaria compartir",
+                "recordar momentos felices puede ser tanto reconfortante como doloroso estoy aqui para escucharte",
+                "los recuerdos pueden ser muy fuertes como te sientes cuando piensas en esos momentos",
+                "es comprensible que los recuerdos sean abrumadores hablemos de como manejar estos pensamientos",
+                "pensar en los buenos tiempos es una forma de mantener su memoria viva te gustaria compartir mas sobre esos momentos"
+            ]
+        },
+        {
+            "tag": "buscar_ayuda_perdida",
+            "patterns": [
+                "no se como seguir adelante",
+                "creo que necesito ayuda profesional",
+                "deberia ver a un terapeuta",
+                "no puedo manejar esto solo",
+                "quiero hablar con un profesional"
+            ],
+            "responses": [
+                "es normal sentirse perdido despues de una perdida hablemos de algunos pasos pequenos para seguir adelante",
+                "buscar ayuda profesional puede ser muy util hablemos de como puedes encontrar un terapeuta que te convenga",
+                "hablar con un terapeuta puede ayudarte a procesar tus sentimientos te gustaria explorar opciones de terapia",
+                "no manejar esto solo es comprensible hablemos de algunas formas en que puedes obtener apoyo",
+                "hablar con un profesional puede proporcionar el apoyo que necesitas te gustaria saber mas sobre como empezar"
+            ]
+        },
+        {
+            "tag": "cerrar_sesion_perdida",
+            "patterns": [
+                "gracias por escucharme",
+                "me siento un poco mejor",
+                "esto ha sido util",
+                "gracias por tu ayuda",
+                "hablaremos pronto"
+            ],
+            "responses": [
+                "me alegra haber podido ayudarte recuerda que estoy aqui cuando necesites hablar",
+                "es bueno saber que te sientes un poco mejor estoy aqui para ti siempre que lo necesites",
+                "me alegra que esto haya sido util para ti estoy aqui para escuchar siempre que lo necesites",
+                "de nada estoy aqui para ayudarte hablaremos pronto",
+                "estoy aqui para ti hablaremos pronto cuidate"
+            ]
+        },
+        {
+            "tag": "introduccion_abuso",
+            "patterns": [
+                "he sido victima de abuso fisico",
+                "alguien me hizo dano",
+                "sufri abuso psicologico",
+                "he pasado por abuso sexual",
+                "fui maltratado"
+            ],
+            "responses": [
+                "lamento mucho que hayas pasado por esto estoy aqui para escucharte y apoyarte",
+                "lo siento mucho tu experiencia es valida y estoy aqui para ayudarte quieres hablar mas sobre ello",
+                "eso debe haber sido muy doloroso estoy aqui para escucharte y apoyarte en lo que necesites",
+                "nadie deberia pasar por eso estoy aqui para escucharte y ayudarte a encontrar el apoyo que necesitas",
+                "es muy valiente de tu parte hablar sobre esto estoy aqui para ti te gustaria contarme mas"
+            ]
+        },
+        {
+            "tag": "emociones_despues_abuso",
+            "patterns": [
+                "me siento muy triste por lo que paso",
+                "estoy enojado todo el tiempo",
+                "siento que no puedo confiar en nadie",
+                "estoy deprimido desde el abuso",
+                "me siento roto por dentro"
+            ],
+            "responses": [
+                "es completamente normal sentirte triste despues de lo que has pasado estoy aqui para escucharte",
+                "el enojo es una respuesta natural a lo que has experimentado hablemos de como te sientes",
+                "es dificil confiar despues de una experiencia asi estoy aqui para escucharte y ayudarte a sentirte seguro",
+                "la depresion despues del abuso es comun hablemos de como te afecta y como podemos trabajar en ello",
+                "sentirse roto es comprensible estoy aqui para ayudarte a empezar a sanar que es lo que mas te preocupa ahora"
+            ]
+        },
+        {
+            "tag": "culpa_y_verguenza",
+            "patterns": [
+                "siento que es mi culpa",
+                "me averguenza hablar de esto",
+                "pienso que hice algo para merecerlo",
+                "me siento sucio y culpable",
+                "no quiero que nadie lo sepa"
+            ],
+            "responses": [
+                "es importante recordar que nada de esto es tu culpa estoy aqui para apoyarte",
+                "la verguenza es una emocion comun pero no tienes que cargar con esto solo estoy aqui para ti",
+                "no merecias lo que te paso hablemos de tus sentimientos y como podemos trabajar juntos en esto",
+                "sentirse culpable es una reaccion comun pero la culpa no es tuya estoy aqui para escucharte y apoyarte",
+                "es tu decision a quien contarle pero recuerda que no estas solo estoy aqui para ti"
+            ]
+        },
+        {
+            "tag": "flashbacks_y_recuerdos",
+            "patterns": [
+                "tengo flashbacks del abuso",
+                "no puedo dejar de recordar lo que paso",
+                "los recuerdos me estan matando",
+                "no puedo escapar de esos momentos",
+                "revivo el abuso en mi mente constantemente"
+            ],
+            "responses": [
+                "los flashbacks pueden ser muy perturbadores hablemos de como te afectan y como podemos manejarlos",
+                "recordar constantemente el abuso es muy dificil estoy aqui para ayudarte a encontrar maneras de sobrellevarlo",
+                "los recuerdos pueden ser muy intensos hablemos de algunas tecnicas que pueden ayudarte a reducir su impacto",
+                "es muy doloroso revivir esos momentos estoy aqui para escucharte y apoyarte en este proceso",
+                "revivir el abuso es comun entre los sobrevivientes hablemos de estrategias para manejar estos recuerdos"
+            ]
+        },
+        {
+            "tag": "buscando_ayuda_abuso",
+            "patterns": [
+                "creo que necesito ayuda profesional",
+                "deberia ver a un terapeuta",
+                "no puedo manejar esto solo",
+                "quiero hablar con un profesional",
+                "necesito apoyo para superar esto"
+            ],
+            "responses": [
+                "buscar ayuda profesional es una excelente idea hablemos de como puedes encontrar un terapeuta adecuado",
+                "hablar con un terapeuta puede ser muy beneficioso estoy aqui para apoyarte en el proceso de buscar ayuda",
+                "no tienes que manejar esto solo hablemos de algunas opciones para obtener el apoyo que necesitas",
+                "un profesional puede ofrecer el apoyo y la orientacion que necesitas hablemos de como empezar",
+                "superar esto es posible con el apoyo adecuado hablemos de tus opciones y como encontrar ayuda"
+            ]
+        },
+        {
+            "tag": "superacion_abuso",
+            "patterns": [
+                "quiero superar lo que paso",
+                "necesito encontrar la paz",
+                "estoy buscando maneras de sanar",
+                "quiero dejar el pasado atras",
+                "estoy tratando de reconstruir mi vida"
+            ],
+            "responses": [
+                "es un gran paso querer superar lo que paso hablemos de algunos pasos que puedes tomar para empezar a sanar",
+                "encontrar la paz es un proceso estoy aqui para ayudarte a lo largo del camino",
+                "sanar lleva tiempo pero estoy aqui para apoyarte en cada paso del proceso",
+                "dejar el pasado atras es un objetivo noble hablemos de como podemos trabajar juntos para lograrlo",
+                "reconstruir tu vida es posible estoy aqui para ayudarte a encontrar maneras de hacerlo"
+            ]
+        },
+        {
+            "tag": "apoyo_redes_abuso",
+            "patterns": [
+                "no tengo a nadie con quien hablar",
+                "me siento solo despues del abuso",
+                "nadie entiende por lo que estoy pasando",
+                "no se a quien acudir",
+                "me siento aislado desde el abuso"
+            ],
+            "responses": [
+                "sentirse solo es muy dificil hay alguien en tu vida con quien puedas intentar hablar",
+                "la soledad despues del abuso es comun estoy aqui para escucharte que te ayudaria a sentirte mas conectado",
+                "es dificil cuando sientes que nadie entiende estoy aqui para escucharte y comprender lo que estas pasando",
+                "no saber a quien acudir puede ser abrumador hablemos de algunas opciones para encontrar apoyo",
+                "el aislamiento puede intensificar tus sentimientos que actividades o personas solian hacerte sentir mejor"
+            ]
+        },
+        {
+            "tag": "cerrar_sesion_abuso",
+            "patterns": [
+                "gracias por escucharme",
+                "me siento un poco mejor",
+                "esto ha sido util",
+                "gracias por tu ayuda",
+                "hablaremos pronto"
+            ],
+            "responses": [
+                "me alegra haber podido ayudarte recuerda que estoy aqui cuando necesites hablar",
+                "es bueno saber que te sientes un poco mejor estoy aqui para ti siempre que lo necesites",
+                "me alegra que esto haya sido util para ti estoy aqui para escuchar siempre que lo necesites",
+                "de nada estoy aqui para ayudarte hablaremos pronto",
+                "estoy aqui para ti hablaremos pronto cuidate"
+            ]
+        },
+        {
+            "tag": "introduccion_estres_laboral",
+            "patterns": [
+                "tengo demasiados deberes en el trabajo",
+                "el trabajo me esta causando mucho estres",
+                "no puedo manejar la carga de trabajo",
+                "me siento abrumado por el trabajo",
+                "el trabajo esta afectando mi salud mental"
+            ],
+            "responses": [
+                "lamento que estes pasando por esto el estres laboral puede ser muy dificil de manejar te gustaria hablar mas sobre ello",
+                "el exceso de trabajo puede causar mucho estres estoy aqui para escucharte y ayudarte a encontrar maneras de lidiar con ello",
+                "sentirse abrumado por el trabajo es comprensible hablemos de como podemos manejar esta situacion",
+                "es importante cuidar tu salud mental que aspectos del trabajo te estan causando mas estres",
+                "estoy aqui para escucharte y apoyarte hablemos de algunas estrategias para manejar tu carga de trabajo"
+            ]
+        },
+        {
+            "tag": "emociones_estres_laboral",
+            "patterns": [
+                "me siento muy estresado por el trabajo",
+                "estoy ansioso por mi carga de trabajo",
+                "no puedo dormir debido al estres laboral",
+                "me siento agotado todo el tiempo",
+                "no tengo tiempo para mi mismo debido al trabajo"
+            ],
+            "responses": [
+                "sentirse estresado por el trabajo es muy comun hablemos de como podemos manejar este estres",
+                "la ansiedad por la carga de trabajo es comprensible estoy aqui para ayudarte a encontrar maneras de aliviar esta ansiedad",
+                "el estres laboral puede afectar el sueno hablemos de algunas estrategias para mejorar tu descanso",
+                "sentirse agotado es una senal de que necesitas un descanso hablemos de como podemos encontrar tiempo para ti",
+                "es importante tener tiempo para ti mismo hablemos de como podemos equilibrar mejor tu tiempo"
+            ]
+        },
+        {
+            "tag": "introduccion_estres_academico",
+            "patterns": [
+                "tengo demasiados deberes en la escuela",
+                "los estudios me estan causando mucho estres",
+                "no puedo manejar la carga academica",
+                "me siento abrumado por los estudios",
+                "la escuela esta afectando mi salud mental"
+            ],
+            "responses": [
+                "lamento que estes pasando por esto el estres academico puede ser muy dificil de manejar te gustaria hablar mas sobre ello",
+                "el exceso de estudios puede causar mucho estres estoy aqui para escucharte y ayudarte a encontrar maneras de lidiar con ello",
+                "sentirse abrumado por los estudios es comprensible hablemos de como podemos manejar esta situacion",
+                "es importante cuidar tu salud mental que aspectos de los estudios te estan causando mas estres",
+                "estoy aqui para escucharte y apoyarte hablemos de algunas estrategias para manejar tu carga academica"
+            ]
+        },
+        {
+            "tag": "emociones_estres_academico",
+            "patterns": [
+                "me siento muy estresado por la escuela",
+                "estoy ansioso por mi carga academica",
+                "no puedo dormir debido al estres academico",
+                "me siento agotado todo el tiempo",
+                "no tengo tiempo para mi mismo debido a los estudios"
+            ],
+            "responses": [
+                "sentirse estresado por la escuela es muy comun hablemos de como podemos manejar este estres",
+                "la ansiedad por la carga academica es comprensible estoy aqui para ayudarte a encontrar maneras de aliviar esta ansiedad",
+                "el estres academico puede afectar el sueno hablemos de algunas estrategias para mejorar tu descanso",
+                "sentirse agotado es una senal de que necesitas un descanso hablemos de como podemos encontrar tiempo para ti",
+                "es importante tener tiempo para ti mismo hablemos de como podemos equilibrar mejor tu tiempo"
+            ]
+        },
+        {
+            "tag": "inseguridad_academica",
+            "patterns": [
+                "no soy lo suficientemente bueno en mis estudios",
+                "tengo miedo de no pasar mis examenes",
+                "me siento inseguro sobre mis habilidades academicas",
+                "no creo que pueda terminar mi carrera",
+                "estoy preocupado por mi futuro academico"
+            ],
+            "responses": [
+                "es normal sentir inseguridad academica estoy aqui para escucharte y apoyarte",
+                "el miedo a no pasar los examenes puede ser muy estresante hablemos de como puedes prepararte y reducir esta ansiedad",
+                "sentirse inseguro sobre tus habilidades academicas es comun estoy aqui para ayudarte a encontrar confianza en ti mismo",
+                "terminar tu carrera es un gran objetivo hablemos de como podemos trabajar juntos para alcanzarlo",
+                "preocuparse por el futuro academico es normal hablemos de algunas estrategias para manejar esta preocupacion"
+            ]
+        },
+        {
+            "tag": "emociones_negativas_deberes",
+            "patterns": [
+                "me siento muy triste por mi situacion",
+                "estoy enojado por la carga de trabajo",
+                "siento que no puedo vivir asi",
+                "estoy deprimido desde que comenzo todo esto",
+                "no puedo dejar de llorar por el estres"
+            ],
+            "responses": [
+                "es completamente normal sentirte asi debido al estres hablemos de tus sentimientos",
+                "el enojo es una respuesta valida que crees que te esta causando mas enojo",
+                "sentirse asi es muy duro que te ayuda a pasar el dia",
+                "la depresion por el exceso de deberes es comun estoy aqui para escucharte como ha sido para ti",
+                "llorar es una forma de procesar tus emociones estoy aqui para ti que te hace sentir un poco mejor"
+            ]
+        },
+        {
+            "tag": "buscar_ayuda_deberes",
+            "patterns": [
+                "no se como seguir adelante con todo esto",
+                "creo que necesito ayuda profesional",
+                "deberia ver a un terapeuta",
+                "no puedo manejar esto solo",
+                "quiero hablar con un profesional"
+            ],
+            "responses": [
+                "es normal sentirse perdido con tanto estres hablemos de algunos pasos pequenos para seguir adelante",
+                "buscar ayuda profesional puede ser muy util hablemos de como puedes encontrar un terapeuta que te convenga",
+                "hablar con un terapeuta puede ayudarte a procesar tus sentimientos te gustaria explorar opciones de terapia",
+                "no manejar esto solo es comprensible hablemos de algunas formas en que puedes obtener apoyo",
+                "hablar con un profesional puede proporcionar el apoyo que necesitas te gustaria saber mas sobre como empezar"
+            ]
+        },
+        {
+            "tag": "superacion_deberes",
+            "patterns": [
+                "quiero superar este estres",
+                "necesito encontrar la paz",
+                "estoy buscando maneras de manejar mi carga de trabajo",
+                "quiero dejar este estres atras",
+                "estoy tratando de encontrar un equilibrio"
+            ],
+            "responses": [
+                "es un gran paso querer superar el estres hablemos de algunos pasos que puedes tomar para empezar",
+                "encontrar la paz es un proceso estoy aqui para ayudarte a lo largo del camino",
+                "manejar la carga de trabajo lleva tiempo pero estoy aqui para apoyarte en cada paso del proceso",
+                "dejar el estres atras es un objetivo noble hablemos de como podemos trabajar juntos para lograrlo",
+                "encontrar un equilibrio es posible estoy aqui para ayudarte a encontrar maneras de hacerlo"
+            ]
+        },
+        {
+            "tag": "apoyo_redes_deberes",
+            "patterns": [
+                "no tengo a nadie con quien hablar sobre mi estres",
+                "me siento solo con todo este trabajo",
+                "nadie entiende por lo que estoy pasando en el trabajo",
+                "no se a quien acudir con mis problemas academicos",
+                "me siento aislado por mi carga de trabajo"
+            ],
+            "responses": [
+                "sentirse solo es muy dificil hay alguien en tu vida con quien puedas intentar hablar",
+                "la soledad debido al trabajo es comun estoy aqui para escucharte que te ayudaria a sentirte mas conectado",
+                "es dificil cuando sientes que nadie entiende estoy aqui para escucharte y comprender lo que estas pasando",
+                "no saber a quien acudir puede ser abrumador hablemos de algunas opciones para encontrar apoyo",
+                "el aislamiento puede intensificar tus sentimientos que actividades o personas solian hacerte sentir mejor"
+            ]
+        },
+        {
+            "tag": "cerrar_sesion_deberes",
+            "patterns": [
+                "gracias por escucharme",
+                "me siento un poco mejor",
+                "esto ha sido util",
+                "gracias por tu ayuda",
+                "hablaremos pronto"
+            ],
+            "responses": [
+                "me alegra haber podido ayudarte recuerda que estoy aqui cuando necesites hablar",
+                "es bueno saber que te sientes un poco mejor estoy aqui para ti siempre que lo necesites",
+                "me alegra que esto haya sido util para ti estoy aqui para escuchar siempre que lo necesites",
+                "de nada estoy aqui para ayudarte hablaremos pronto",
+                "estoy aqui para ti hablaremos pronto cuidate"
+            ]
+        },
+        {
+            "tag": "introduccion_discriminacion_racial",
+            "patterns": [
+                "me siento mal con mi color de piel por comentarios racistas",
+                "me dijeron negro sucio y me siento deprimidoa",
+                "no puedo manejar el estres de ser discriminadoa por mi raza",
+                "me siento abrumadoa por el racismo",
+                "la discriminacion esta afectando mi salud mental"
+            ],
+            "responses": [
+                "lamento mucho que estes pasando por esto el racismo puede ser muy doloroso quieres hablar mas sobre ello",
+                "el racismo puede tener un gran impacto emocional estoy aqui para escucharte y apoyarte",
+                "entiendo que te sientas abrumadoa hablemos de como podemos manejar esta situacion juntos",
+                "cuidar tu salud mental es crucial que aspectos del racismo te estan afectando mas",
+                "estoy aqui para apoyarte hablemos de algunas estrategias para enfrentar el racismo y proteger tu bienestar"
+            ]
+        },
+        {
+            "tag": "emociones_discriminacion_racial",
+            "patterns": [
+                "me siento muy deprimidoa por la discriminacion racial",
+                "estoy ansiosoa por ser discriminadoa por mi raza",
+                "no puedo dormir por el racismo que enfrento",
+                "me siento agotadoa todo el tiempo por el racismo",
+                "no tengo paz debido al racismo"
+            ],
+            "responses": [
+                "sentirte deprimidoa por el racismo es completamente valido hablemos de como podemos manejar estos sentimientos juntos",
+                "la ansiedad causada por el racismo es comprensible estoy aqui para ayudarte a encontrar formas de aliviar esta ansiedad",
+                "el impacto del racismo en tu sueno puede ser muy duro hablemos de estrategias para mejorar tu descanso",
+                "sentirse agotadoa todo el tiempo es una senal de que necesitas apoyo estoy aqui para escucharte y ofrecerte mi ayuda",
+                "es importante encontrar paz a pesar del racismo hablemos de como podemos trabajar hacia eso"
+            ]
+        },
+        {
+            "tag": "introduccion_discriminacion_lgbt",
+            "patterns": [
+                "me siento inseguro por comentarios homofobicos",
+                "me siento insegura por comentarios homofobicos",
+                "me dijeron maricon y me siento deprimidoa",
+                "no puedo manejar el estres de ser discriminadoa por mi orientacion sexual",
+                "la discriminacion esta afectando mi salud mental debido a mi identidad lgbt"
+            ],
+            "responses": [
+                "lamento mucho que estes pasando por esto la discriminacion por identidad lgbt puede ser muy dolorosa quieres hablar mas sobre ello",
+                "la discriminacion lgbt puede tener un impacto significativo en tu bienestar emocional estoy aqui para escucharte y apoyarte",
+                "entiendo que te sientas abrumadoa hablemos de como podemos manejar esta situacion juntos",
+                "cuidar tu salud mental es crucial que aspectos de la discriminacion lgbt te estan afectando mas",
+                "estoy aqui para apoyarte hablemos de algunas estrategias para enfrentar la discriminacion lgbt y proteger tu bienestar"
             ]
         }
     ]
