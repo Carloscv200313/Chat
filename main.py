@@ -1,5 +1,4 @@
 #permite el procesamiento de lenguaje natural
-from xml.dom.minidom import Document
 import nltk
 nltk.download("punkt")
 #minimizar las palabra
@@ -11,29 +10,17 @@ import numpy
 #herramienta de deep learning
 import tflearn
 import tensorflow
-from tensorflow.python.framework import ops
-
 #permite manipular contenido json.
 import json
 #permite crear numeros aleaotorios
 import random
 #permite guardar los modelos de entrenamiento (mejora la velocidad, ya que no hay que entrenar desde 0 varias veces)
 import pickle
-
-import requests
 import os
-import matplotlib as mltp
-
-
-import dload
-
-#print("primera parte correcta!")
-
 dir_path=os.path.dirname(os.path.realpath(__file__))
 dir_path=dir_path.replace("\\","//")
 with open(dir_path+'/data_bot\data_bot-main/data.json','r') as file:
     database=json.load(file)
-
 words=[]
 all_words=[]
 tags=[]
