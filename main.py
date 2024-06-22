@@ -24,6 +24,7 @@ import requests
 import os
 import matplotlib as mltp
 
+
 import dload
 
 #print("primera parte correcta!")
@@ -66,7 +67,7 @@ except:
     import itertools
     words=sorted(set(list(itertools.chain.from_iterable(words))))
     #words=sorted(set(words))
-    #print(words)
+    # print(words)
     tags=sorted(set(aux))
     #print(tags)
 
@@ -102,21 +103,21 @@ except:
     #print(exit)   
     training=numpy.array(training)
     #print(training)  
-    exit=numpy.array(exit)
+    #exit=numpy.array(exit)
 
     #crear el archive pickle
     with open("Entrenamiento/brain.pickle","wb") as pickleBrain:
         pickle.dump((all_words,tags,training,exit),pickleBrain)
 
 tensorflow.compat.v1.reset_default_graph()
-tflearn.init_graph(num_cores=8,gpu_memory_fraction=0.5)
+tflearn.init_graph(num_cores=8,gpu_memory_fraction=0.9)
 #creamos la red neuronal
 net=tflearn.input_data(shape=[None,len(training[0])])
 #redes intermedias
 net=tflearn.fully_connected(net,100,activation='Relu')
 net=tflearn.fully_connected(net,50)
 net=tflearn.dropout(net,0.5)
-# neurona salida
+# neurona salidah
 net=tflearn.fully_connected(net,len(exit[0]),activation='softmax')
 #red completada
 net=tflearn.regression(net,optimizer='adam',learning_rate=0.01,loss='categorical_crossentropy')
@@ -126,33 +127,54 @@ if os.path.isfile(dir_path+"/Entrenamiento/model.tflearn.index"):
     model.load(dir_path+"/Entrenamiento/model.tflearn")
     #print("ya exise data entrenada")
 else:
-    model.fit(training,exit,validation_set=0.1,show_metric=True,batch_size=128,n_epoch=100)
+    model.fit(training,exit,validation_set=0.1,show_metric=True,batch_size=128,n_epoch=2000)
     model.save("Entrenamiento/model.tflearn")
 
+import os
+import time  # Importar el módulo time para medir el tiempo
+
+# Tu código hasta el punto donde quieres limpiar la consola y comenzar la medición del tiempo
+os.system('cls')  # Limpiar la consola en Windows
+print("Asistente: HOLA YO SOY BAYMAX, TU ASISTENTE PERSONAL!!")
+
+# Función para la respuesta del asistente
 def response(texto):
-    if texto=="gracias baymax":
-        answer="Descansa mañana sera un gran dia"
-        return False, answer
+    start_time = time.time()  # Obtener el tiempo actual al inicio de la respuesta
+    
+    if texto == "gracias":
+        answer = "Descansa mañana será un gran día"
+        return False, 0  # Retornar False indicando fin de la conversación y 0 como tiempo
+    
     else:
-        bucket=[0 for _ in range(len(all_words))]
-        processed_sentence=nltk.word_tokenize(texto)
-        processed_sentence=[stemmer.stem(palabra.lower()) for palabra in processed_sentence]
+        bucket = [0 for _ in range(len(all_words))]
+        processed_sentence = nltk.word_tokenize(texto)
+        processed_sentence = [stemmer.stem(palabra.lower()) for palabra in processed_sentence]
+        
         for individual_word in processed_sentence:
-            for i,palabra in enumerate(all_words):
-                if palabra==individual_word:
-                    bucket[i]=1
-        results=model.predict([numpy.array(bucket)])
-        index_results=numpy.argmax(results)
-        max=results[0][index_results]
-        target=tags[index_results]
+            for i, palabra in enumerate(all_words):
+                if palabra == individual_word:
+                    bucket[i] = 1
+        
+        results = model.predict([numpy.array(bucket)])
+        index_results = numpy.argmax(results)
+        max_value = results[0][index_results]
+        target = tags[index_results]
+        
         for tagAux in database["intents"]:
-            if tagAux['tag']==target:
-                answer=tagAux['responses']
-                answer=random.choice(answer)
-        print(answer)
-        return True, answer
-#print("HABLA CONMIGO !!")
-#bool=True
-#while bool==True:
-#    texto=input()
-#    bool=response(texto)
+            if tagAux['tag'] == target:
+                answer = random.choice(tagAux['responses'])
+        
+        print("Asistente: " + answer)
+        end_time = time.time()  # Obtener el tiempo actual al final de la respuesta
+        return True, (end_time - start_time) * 1000  # Retornar True indicando que la conversación continúa y el tiempo en milisegundos
+
+# Bucle principal de interacción con el usuario
+conversation_time = 0
+while True:
+    texto = input("Usuario: ")
+    continue_conversation, response_time = response(texto)
+    if not continue_conversation:
+        break
+    conversation_time += response_time
+    print(f"Tiempo de respuesta: {response_time:.2f} ms")
+print(f"Tiempo total de conversación: {conversation_time:.2f} ms")
